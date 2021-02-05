@@ -1,0 +1,103 @@
+:root {
+	font-size: 15px;
+}
+
+                            /* Initialisation du style*/
+body
+{
+	font-family: "Raleway", sans-serif;
+}
+                           /* Header du site*/
+.main-header
+{
+	display:flex;
+	justify-content: space-between;
+}
+
+.headerlogo
+{
+	display: flex;
+    flex-direction: row;
+	align-items: baseline;
+	max-width: 100%;
+	width: 4rem;
+	height: 20rem;
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+	padding: 0;
+    height: 6rem;
+    margin: 0;
+}
+
+nav li
+{
+	padding: 0 2rem 0 1rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+nav a
+{
+    font-size: 1.1rem;
+	text-decoration: none;
+}
+
+.contenerglobal
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 4rem 15rem 2rem 2rem 15rem;
+	grid-template-areas:"link1 link1 link1 link1"
+						"link2 link3 link5 link6"
+						"link2 link3 link5 .	"
+						"link2 . 	 link5 link7"
+						"link2 link4 link5 link7";
+	width: 100%;
+	grid-column-gap: 2rem;
+}
+
+ /* footer */
+
+.bottom
+{	
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	margin-top: 6.6rem;
+	background-color: #F2F2F2;
+}
+
+.contenerfooter
+{
+	width: 30%;
+}
+
+.bottomstyle
+{
+	list-style-type: none;
+	display: block;
+	max-width: 100%;
+}
+
+
+.bottomlink
+{
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	color: black;
+}
+
+.bottomtitle
+{
+	margin-top: 2.6rem;
+	margin-left: 2.6rem;
+	font-weight: bold;
+}
