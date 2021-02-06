@@ -16,14 +16,7 @@ body
 
 .headerlogo
 {
-	display: flex;
-    flex-direction: row;
-	align-items: baseline;
-	max-width: 100%;
-	width: 4rem;
-	height: 20rem;
-	margin-top: 2rem;
-	margin-left: 2rem;
+
 }
 
 /* Navigation */
@@ -74,10 +67,6 @@ nav a
 	background-color: #F2F2F2;
 }
 
-.contenerfooter
-{
-	width: 30%;
-}
 
 .bottomstyle
 {
@@ -95,9 +84,3 @@ nav a
 	color: black;
 }
 
-.bottomtitle
-{
-	margin-top: 2.6rem;
-	margin-left: 2.6rem;
-	font-weight: bold;
-}

@@ -7,57 +7,58 @@
     <link rel="stylesheet" type="text/css" href="tablett.css" media="screen AND (max-width: 768px)"/>
     <link rel="stylesheet" type="text/css" href="mobile.css" media="screen AND (max-width: 480px)"/>
     <script src="https://kit.fontawesome.com/5f95a73160.js" crossorigin="anonymous"></script>
-    <title>Le Ptit Atelier 3D</title>
+    <title>ohmyfood</title>
 </head>
 <body>
 
     <header class="header">
-        <a class="headerlogo"><img src="img/logo.jpg" alt="logo"/></a>
-        <nav class="nav">
-            <ul>
-                <li class="nav__link nav__link--active">work</li>
-                <li class="nav__link"> <a href="/about.html">about</a> </li>
-                <li class="nav__link"> <a href="/contact.html">contact</a> </li>
-            </ul>
-
-        </nav>
+        <a class="headerlogo"><img src="img/ohmyfood.png" alt="logo"/></a>
+        <div>
+        <i class="fas fa-map-marker-alt map"></i><input class="place" type="search" placeholder="Paris, Belleville">
+        </div>
     </header>
     
     <main class="container">
-        <div class="proj-grid">
-            <section class="proj-prev">
-                <div class="proj-prev__image">
-                    <img src="/public/img/photography_1280w.jpg" srcset="
-                    " alt="project title goes here" >
-                </div>
-            </section>
-        </div>
-        
+       
+            <h2 class="article-header">Réservez le menu qui vous convient</h2>
+            <p class="article-text">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+            <button class="search2"><span class="search">Explorer nos restaurants</span></button>
+            <div>
+                <h2>Fonctionnement</h2>
+                <button><span class="search">Choisissez un restaurant</span></button>
+                <button><span class="search">Composez votre menu</span></button>
+                <button><span class="search">Dégustez au restaurant</span></button>
+            </div>
+            <article>
+                <h2>Restaurants</h2>
+                <div class="contener">
+                    <a href="#" class="blockarticle">
+                        <figure><img class="imagearticle" src="./img/jay-wennington.jpg" />
+                            <figcaption class="title">La palette du goût<p class="text">Ménilmontant</p>
+                                    <i class="far fa-heart"></i>
+                        <figure><img class="imagearticle" src="./img/stil.jpg" />
+                            <figcaption class="title">La note enchantée<p class="text">Charonne</p>
+                                    <i class="far fa-heart"></i>
+                        <figure><img class="imagearticle" src="./img/toa-heftiba.jpg" />
+                            <figcaption class="title">À la française<p class="text">Cité Rouge</p>
+                                    <i class="far fa-heart"></i>
+                        <figure><img class="imagearticle" src="./img/louis-hansel-shotsoflouis.jpg" />
+                             <figcaption class="title">Le délice des sens<p class="text">Folie-Méricourt</p>
+                                    <i class="far fa-heart"></i>
+                            </div>
+            </article>
     </main>
 
     <!-- Footer -->
 
     <footer class="bottom">
         <div class="contenerfooter">
-            <h3 class="bottomtitle">RESTONS EN CONTACT</h3>
+            <a class="headerlogo"><img src="img/ohmyfood.png" alt="logo"/></a>
             <ul class="bottomstyle">
-                <li><a class="bottomlink" href="#">Adresse mail</a></li>
-            </ul>
-        </div>
-
-        <div class="contenerfooter">
-            <h3 class="bottomtitle">INFORMATIONS</h3>
-            <ul class="bottomstyle">
-                <li><a class="bottomlink" href="#">Nous contacter</a></li>
-                <li><a class="bottomlink" href="#">FAQ</a></li>
+                <li><i class="fas fa-utensils"></i><a class="bottomlink" href="#">Proposer un restaurant</a></li>
+                <li><i class="fas fa-hands-helping"></i><a class="bottomlink" href="#">Devenir partenaire</a></li>
                 <li><a class="bottomlink" href="#">Mentions légales</a></li>
-            </ul>
-        </div>
-
-        <div class="contenerfooter">
-            <h3 class="bottomtitle">NEWLETTER</h3>
-            <ul class="bottomstyle">
-                <li><a class="bottomlink" href="#">Inscrivez-vous et recevez les dernières nouveautés de la boutique!</a></li>
+                <li><a class="bottomlink" href="#">Contact</a></li>
             </ul>
         </div>
     </footer>
