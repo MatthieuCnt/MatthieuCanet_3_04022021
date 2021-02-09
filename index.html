@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="tablett.css" media="screen AND (max-width: 768px)"/>
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen AND (max-width: 480px)"/>
     <script src="https://kit.fontawesome.com/5f95a73160.js" crossorigin="anonymous"></script>
     <title>ohmyfood</title>
 </head>
@@ -14,57 +12,58 @@
     <header class="header">
         <a class="headerlogo"><img src="img/ohmyfood.png" alt="logo"/></a>
         <div>
-        <i class="fas fa-map-marker-alt map"></i><input class="place" type="search" placeholder="Paris, Belleville">
+            <i class="fas fa-map-marker-alt map"></i><input class="place" type="search" placeholder="Paris, Belleville">
+        </div>
+        <div>
+            <h2 class="article-header">Réservez le menu qui vous convient</h2>
+            <p class="article-text">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+            <button class="search2"><span class="search">Explorer nos restaurants</span></button>
         </div>
     </header>
     
     <main class="container">
-       
-            <h2 class="article-header">Réservez le menu qui vous convient</h2>
-            <p class="article-text">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-            <button class="search2"><span class="search">Explorer nos restaurants</span></button>
-            <div>
-                <h2>Fonctionnement</h2>
-                <button><span class="search">Choisissez un restaurant</span></button>
-                <button><span class="search">Composez votre menu</span></button>
-                <button><span class="search">Dégustez au restaurant</span></button>
+        <nav>
+            <h2>Fonctionnement</h2>
+            <button><i class="fas fa-mobile-alt"></i><span class="search">Choisissez un restaurant</span></button>
+            <button><i class="fas fa-list-ul"></i><span class="search">Composez votre menu</span></button>
+            <button><i class="fas fa-store"></i><span class="search">Dégustez au restaurant</span></button>
+        </nav>
+        <article>
+            <h2>Restaurants</h2>
+            <div class="contener">
+                <a class="blockarticle" href="menu_La_palette_du_gout.html">
+                    <figure><img class="imagearticle" src="./img/jay-wennington.jpg" />
+                        <figcaption class="title">La palette du goût<p class="text">Ménilmontant</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a class="blockarticle" href="menu_La_note_enchantee.html">
+                    <figure><img class="imagearticle" src="./img/stil.jpg" />
+                        <figcaption class="title">La note enchantée<p class="text">Charonne</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a class="blockarticle" href="menu_A_la_francaise.html">
+                    <figure><img class="imagearticle" src="./img/toa-heftiba.jpg" />
+                        <figcaption class="title">À la française<p class="text">Cité Rouge</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a class="blockarticle" href="menu_Le_delice_des_sens.html">
+                    <figure><img class="imagearticle" src="./img/louis-hansel-shotsoflouis.jpg" />
+                        <figcaption class="title">Le délice des sens<p class="text">Folie-Méricourt</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </a>
             </div>
-            <article>
-                <h2>Restaurants</h2>
-                <div class="contener">
-                    <a class="blockarticle" href="menu_La_palette_du_gout.html">
-                        <figure><img class="imagearticle" src="./img/jay-wennington.jpg" />
-                            <figcaption class="title">La palette du goût<p class="text">Ménilmontant</p>
-                                    <i class="far fa-heart"></i>
-                            </figcaption>
-                        </figure>
-                    </a>
-
-                    <a class="blockarticle" href="menu_La_note_enchantee.html">
-                        <figure><img class="imagearticle" src="./img/stil.jpg" />
-                            <figcaption class="title">La note enchantée<p class="text">Charonne</p>
-                                    <i class="far fa-heart"></i>
-                            </figcaption>
-                        </figure>
-                    </a>
-
-                    <a class="blockarticle" href="menu_A_la_francaise.html">
-                        <figure><img class="imagearticle" src="./img/toa-heftiba.jpg" />
-                            <figcaption class="title">À la française<p class="text">Cité Rouge</p>
-                                    <i class="far fa-heart"></i>
-                            </figcaption>
-                        </figure>
-                    </a>
-
-                    <a class="blockarticle" href="menu_Le_delice_des_sens.html">
-                        <figure><img class="imagearticle" src="./img/louis-hansel-shotsoflouis.jpg" />
-                             <figcaption class="title">Le délice des sens<p class="text">Folie-Méricourt</p>
-                                    <i class="far fa-heart"></i>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </article>
+        </article>
     </main>
 
     <!-- Footer -->
