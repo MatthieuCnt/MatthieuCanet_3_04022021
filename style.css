@@ -1,1 +1,15 @@
+/* version mobile*/
 
+@media screen and (max-width: 480px) {
+
+:root {
+	font-size: 15px;
+}
+
+/* Initialisation du style*/
+body
+{
+	font-family: "Raleway", sans-serif;
+}
+                           /* Header du site*/
+}
