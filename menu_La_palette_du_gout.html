@@ -10,65 +10,72 @@
 </head>
 <body>
 
-    <header>
+    <header style="background-color: aquamarine;">
         <i class="fas fa-arrow-left"></i>
         <h1>ohmyfood</h1>
-            <img src="./img/jay-wennington.jpg" alt="menu"/>
+            <img src="./img/jaywennington.jpg" alt="menu"/>
     </header>
     
-    <main>
+    <main style="background-color: antiquewhite;">
         <list>
             <h2>La palette du goût</h2><i class="far fa-heart"></i>
+
             <p>ENTRÉES</p>
             <div>
-                <h2>Fricassée d'escargot</h2>
-                <p>Au piment d'espelette</p>
-                <p>25€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+                <input type="radio" id="fricassée" name="entrée" value="fricassée" checked>
+                <label for="fricassée">Fricassée d'escargot Au piment d'espelette 25€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Foie gras de canard mi-cuit</h2>
-                <p>Et ses copeaux de truffe noire</p>
-                <p>35€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="foie" name="entrée" value="foie" checked>
+                <label for="foie">Foie gras de canard mi-cuit Et ses copeaux de truffe noire 35€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Oeuf au plat</h2>
-                <p>Assaisonné à la truffe sur lit de...</p>
-                <p>20€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="oeuf" name="entrée" value="oeuf" checked>
+                <label for="oeuf">Oeuf au plat Assaisonné à la truffe sur lit de... 20€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-            <h2>PLATS</h2>
+            <p>PLATS</p>
+            <div>
+                <input type="radio" id="filet" name="plats" value="filet" checked>
+                <label for="filet">Filet de boeuf aux herbes Accompagné de sa ribambelle de légu... 40€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Filet de boeuf aux herbes</h2>
-                <p>Accompagné de sa ribambelle de légu...</p>
-                <p>40€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="parmentier" name="plats" value="parmentier" checked>
+                <label for="parmentier">Parmentier de queue de boeuf A la truffe noire sur sa purée de panais 35€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Parmentier de queue de boeuf</h2>
-                <p>A la truffe noire sur sa purée de panais</p>
-                <p>35€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="filet" name="plats" value="filet" checked>
+                <label for="filet">Filet de Turbot Aux légumes 44€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Filet de Turbot</h2>
-                <p>Aux légumes</p>
-                <p>44€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <p>DESSERTS</p>
+            <div>
+                <input type="radio" id="paris" name="desserts" value="paris" checked>
+                <label for="paris">Paris-Brest Revisité 18€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-            <h2>DESSERTS</h2>
+            <div>
+                <input type="radio" id="macaron" name="desserts" value="macaron" checked>
+                <label for="macaron">Macaron au chocolat d'exception Et glace à la vanille de Madagascar 22€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Paris-Brest</h2>
-                <p>Revisité</p>
-                <p>18€</p>
-                <button><i class="fas fa-check-circle"></i></button>
-
-                <h2>Macaron au chocolat d'exception</h2>
-                <p>Et glace à la vanille de Madagascar</p>
-                <p>22€</p>
-                <button><i class="fas fa-check-circle"></i></button>
-
-                <h2>Mousse au chocolat</h2>
-                <p>Au piment d'espelette et à la truffe noire</p>
-                <p>23€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="mousse" name="desserts" value="mousse" checked>
+                <label for="mousse">Mousse au chocolat Au piment d'espelette et à la truffe noire 23€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
             <input type="submit" value="Commander " />
         </list>
@@ -76,7 +83,7 @@
 
     <!-- Footer -->
 
-    <footer>
+    <footer style="background-color:cadetblue">
         <h1>ohmyfood</h1>
         <ul>
             <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>

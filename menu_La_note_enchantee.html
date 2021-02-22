@@ -10,78 +10,88 @@
 </head>
 <body>
 
-    <header>
+    <header style="background-color: aquamarine;">
         <i class="fas fa-arrow-left"></i>
         <h1>ohmyfood</h1>
             <img src="./img/stil.jpg" alt="menu"/>
     </header>
     
-    <main>
+    <main style="background-color: antiquewhite;">
         <list>
             <h2>La note enchantée</h2><i class="far fa-heart"></i>
+
             <p>ENTRÉES</p>
             <div>
-                <h2>Ravioles de foie gras</h2>
-                <p>Accompagnés de leur crème à la truffe</p>
-                <p>25€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+                <input type="radio" id="ravioles" name="entrée" value="ravioles" checked>
+                <label for="ravioles">Ravioles de foie gras Accompagnés de leur crème à la truffe 25€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Caviar osciètre</h2>
-                <p>Sur blini à la farine de blé noir</p>
-                <p>35€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="caviar" name="entrée" value="caviar" checked>
+                <label for="caviar">Caviar osciètre Sur blini à la farine de blé noir 35€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Homard et espuma de...</h2>
-                <p>Mariné aux zests d'orange</p>
-                <p>20€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="homard" name="entrée" value="homard" checked>
+                <label for="homard">Homard et espuma de... Mariné aux zests d'orange 20€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Foie gras de canard cuit entier</h2>
-                <p>Confiture de figue et pain toasté</p>
-                <p>35€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="Foie" name="entrée" value="Foie" checked>
+                <label for="Foie">Foie gras de canard cuit entier Confiture de figue et pain toasté 35€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-            <h2>PLATS</h2>
+            <p>PLATS</p>
 
-                <h2>Noix de coquille Saint-Jacques</h2>
-                <p>Sur lit de purée de céleri-rave</p>
-                <p>40€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="noix" name="plats" value="noix" checked>
+                <label for="noix">Noix de coquille Saint-Jacques Sur lit de purée de céleri-rave 40€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Langoustine poêlée</h2>
-                <p>Purée de patate douce</p>
-                <p>35€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="langoustine" name="plats" value="langoustine" checked>
+                <label for="langoustine">Langoustine poêlée Purée de patate douce 35€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Mijoté de queue de boeuf</h2>
-                <p>Et riz sauvage aux zests de citron</p>
-                <p>44€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="mijoté" name="plats" value="mijoté" checked>
+                <label for="mijoté">Mijoté de queue de boeuf Et riz sauvage aux zests de citron 44€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-            <h2>DESSERTS</h2>
+            <p>DESSERTS</p>
 
-                <h2>Macaron noisette et chocolat</h2>
-                <p>Glace au caramel brun et sel de Guérande</p>
-                <p>18€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="macaron" name="desserts" value="macaron" checked>
+                <label for="macaron">Macaron noisette et chocolat Glace au caramel brun et sel de Guérande 18€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Baba au rhum revisité</h2>
-                <p>Avec son coulis de citron</p>
-                <p>22€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="baba" name="desserts" value="baba" checked>
+                <label for="baba">Baba au rhum revisité Avec son coulis de citron 22€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Tarte au citron meringuée</h2>
-                <p>Destructurée</p>
-                <p>23€</p>
-                <button><i class="fas fa-check-circle"></i></button>
-
+            <div>
+                <input type="radio" id="tarte" name="desserts" value="tarte" checked>
+                <label for="tarte">Tarte au citron meringuée Destructurée 23€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
+                
             <input type="submit" value="Commander" />
         </list>
     </main>
 
     <!-- Footer -->
 
-    <footer>
+    <footer style="background-color:cadetblue">
         <h1>ohmyfood</h1>
         <ul>
             <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>

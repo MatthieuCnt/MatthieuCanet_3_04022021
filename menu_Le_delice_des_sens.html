@@ -10,65 +10,72 @@
 </head>
 <body>
 
-    <header>
+    <header style="background-color: aquamarine;">
         <i class="fas fa-arrow-left"></i>
         <h1>ohmyfood</h1>
-            <img src="./img/louis-hansel-shotsoflouis.jpg" alt="menu"/>
+            <img src="./img/louishanselshotsoflouis.jpg" alt="menu"/>
     </header>
     
-    <main>
+    <main style="background-color: antiquewhite;">
         <list>
             <h2>Le délice des sens</h2><i class="far fa-heart"></i>
+
             <p>ENTRÉES</p>
+            <div>
+                <input type="radio" id="tartare" name="entrée" value="tartare" checked>
+                <label for="tartare">Tartare de thon Assaisoné au yuzu 25€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Tartare de thon</h2>
-                <p>Assaisoné au yuzu</p>
-                <p>25€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="bouchée" name="entrée" value="bouchée" checked>
+                <label for="bouchée">Bouchée de homard croustillant Et sa farandole de petits légumes 35€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Bouchée de homard croustillant</h2>
-                <p>Et sa farandole de petits légumes</p>
-                <p>35€</p>
-                <button><i class="fas fa-check-circle"></i></button>
->
-                <h2>Velouté de cèpes</h2>
-                <p>Aux truffes</p>
-                <p>20€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="velouté" name="entrée" value="velouté" checked>
+                <label for="velouté">Velouté de cèpes Aux truffes 20€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
             <h2>PLATS</h2>
+            <div>
+                <input type="radio" id="poulet" name="plats" value="poulet" checked>
+                <label for="poulet">Poulet rôti aux herbes de provence Et sa crème de truffe 40€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Poulet rôti aux herbes de provence</h2>
-                <p>Et sa crème de truffe</p>
-                <p>40€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="langouste" name="plats" value="langouste" checked>
+                <label for="langouste">Langouste rôtie Et ses légumes de saison 35€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Langouste rôtie</h2>
-                <p>Et ses légumes de saison </p>
-                <p>35€</p>
-                <button><i class="fas fa-check-circle"></i></button>
-
-                <h2>Côte de boeuf angus</h2>
-                <p>Et sa purée de panais</p>
-                <p>44€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="côte" name="plats" value="côte" checked>
+                <label for="côte">Côte de boeuf angus Et sa purée de panais 44€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
             <h2>DESSERTS</h2>
+            <div>
+                <input type="radio" id="farandole" name="desserts" value="farandole" checked>
+                <label for="farandole">Farandole de desserts Du chef 18€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Farandole de desserts</h2>
-                <p>Du chef</p>
-                <p>18€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="crème" name="desserts" value="crème" checked>
+                <label for="crème">Crème brulée Revisitée 22€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
-                <h2>Crème brulée</h2>
-                <p>Revisitée</p>
-                <p>22€</p>
-                <button><i class="fas fa-check-circle"></i></button>
-
-                <h2>Tiramisu</h2>
-                <p>À la noisette</p>
-                <p>23€</p>
-                <button><i class="fas fa-check-circle"></i></button>
+            <div>
+                <input type="radio" id="tiramisu" name="desserts" value="tiramisu" checked>
+                <label for="tiramisu">Tiramisu À la noisette 23€</label>
+                <i class="fas fa-check-circle"></i>
+            </div>
 
             <input type="submit" value="Commander" />
         </list>
@@ -76,7 +83,7 @@
 
     <!-- Footer -->
 
-    <footer>
+    <footer style="background-color:cadetblue">
         <h1>ohmyfood</h1>
         <ul>
             <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
