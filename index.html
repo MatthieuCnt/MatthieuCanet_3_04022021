@@ -13,64 +13,66 @@
 <body>
     <!--En-tête de page-->
     <header style="background-color: aquamarine;">
-        <a href="index.html"><h1>ohmyfood</h1></a>
+        <a href="index.html"><h1 class="logo">ohmyfood</h1></a>
         <form method="post">
-            <div>
+            <div class="search">
                 <i class="fas fa-map-marker-alt map"></i>
                 <input type="text" id="location" placeholder="Paris, Belleville">
-            <div>
-            <h2>Réservez le menu qui vous convient</h2>
-            <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-            <button>Explorer nos restaurants</button>
+            </div>
+            <div class="header">
+                <h2>Réservez le menu qui vous convient</h2>
+                <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+                <button class="explorer">Explorer nos restaurants</button>
+            </div>
         </form>
     </header>
     
     <main style="background-color: antiquewhite;">
 
-        <h2>Fonctionnement</h2>
-        <ul>
+        <h2 class="title">Fonctionnement</h2>
+        <ul class="choice">
             <li><a href="#"><i class="fas fa-mobile-alt"></i><span>Choisissez un restaurant</span></a></li>
             <li><a href="#"><i class="fas fa-list-ul"></i><span>Composez votre menu</span></a></li>
             <li><a href="#"><i class="fas fa-store"></i><span>Dégustez au restaurant</span></a></li>
         </ul>
-        <section>
-            <h2>Restaurants</h2>
+        <section class="article" style="background-color: cadetblue;">
+            <h2 class="title">Restaurants</h2>
             <a href="menu_La_palette_du_gout.html">
-                <figure>
-                    <img src="./img/jaywennington.jpg" alt="resto1" />
+                <figure class="blockarticle">
+                    <img class="picture" src="./img/jaywennington.jpg" alt="resto1" />
                     <figcaption>
                         <h3>La palette du goût Ménilmontant</h3>
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart love"></i>
                     </figcaption>
                 </figure>
             </a>
 
             <a href="menu_La_note_enchantee.html">
-                <figure>
-                    <img src="./img/stil.jpg" alt="resto2" />
+                <figure class="blockarticle">
+                    <img class="picture" src="./img/stil.jpg" alt="resto2" />
                     <figcaption>
                         <h3>La note enchantée Charonne</h3>
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart love"></i>
                     </figcaption>
                 </figure>
             </a>
 
             <a href="menu_A_la_francaise.html">
-                <figure>
-                    <img src="./img/toaheftiba.jpg" alt="resto3" />
+                <figure class="blockarticle">
+                    <img class="picture" src="./img/toaheftiba.jpg" alt="resto3" />
                     <figcaption>
                         <h3>la française Cité Rouge</h3>
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart love"></i>
                     </figcaption>
                 </figure>
             </a>
 
             <a href="menu_Le_delice_des_sens.html">
-                <figure>
-                    <img src="./img/louishanselshotsoflouis.jpg" alt="resto4" />
+                <figure class="blockarticle">
+                    <img class="picture" src="./img/louishanselshotsoflouis.jpg" alt="resto4" />
                     <figcaption>
                         <h3>Le délice des sens Folie-Méricourt</h3>
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart love"></i>
                     </figcaption>
                 </figure>
             </a>
@@ -79,11 +81,11 @@
 
     <!-- Footer -->
 
-    <footer style="background-color:cadetblue">
-        <h4>ohmyfood</h4>
-        <ul>
-            <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
-            <li><i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a></li>
+    <footer class="footer" style="background-color: coral;">
+        <h4 class="footertitle">ohmyfood</h4>
+        <ul class="footerul">
+            <li><i class="fas fa-utensils knife"></i><a href="#">Proposer un restaurant</a></li>
+            <li><i class="fas fa-hands-helping hands"></i><a href="#">Devenir partenaire</a></li>
             <li><a href="#">Mentions légales</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
