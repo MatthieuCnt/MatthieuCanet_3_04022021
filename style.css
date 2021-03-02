@@ -1,15 +1,22 @@
 /* version mobile*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 426px) {
 
-:root {
-	font-size: 15px;
-}
+	:root {
+		font-size: 15px;
+	}
 
 /* Initialisation du style*/
 
  
 /* Header du site*/
 
+
+	.header__titre
+	{
+		text-align: center;
+		font-style: italic;
+		font-family: ;
+	}
 
 }
