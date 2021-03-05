@@ -24,13 +24,14 @@
 .arrow
 {
 	padding-left: 1rem;
-	float:left;
+	float: left;
   	position: relative;
-  	top:1rem;
+  	top: 1rem;
 }
 
 .heartmenu
 {
+	font-size: 2rem;
 	padding-right: 1rem ;
 	float:right;
   	position: relative;
@@ -133,6 +134,17 @@
 	color: white;
 }
 
+.dishesmenu
+{
+	display: flex;
+	height: 5rem;
+	width: 100%;
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+	align-items: center;
+    background-color: #fff;
+}
+
 /* Footer du site*/
 .footer
 {
@@ -145,9 +157,20 @@
 	padding-left: 2.5rem;
 }
 
+.logofooter
+{
+	padding: 1rem 0rem 0rem 1rem;
+}
+
 .footerul
 {
 	list-style-type: none;
+}
+
+.footermenu
+{
+	list-style-type: none;
+	padding-bottom: 2rem;
 }
 
 .knife

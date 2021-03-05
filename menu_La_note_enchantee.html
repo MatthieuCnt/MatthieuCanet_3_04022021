@@ -9,85 +9,75 @@
     <title>ohmyfood</title>
 </head>
 <body>
-
     <header style="background-color: aquamarine;">
-        <i class="fas fa-arrow-left"></i>
-        <h1>ohmyfood</h1>
+        <div class="headermenu">
+            <i class="fas fa-arrow-left arrow"></i>
+            <h1 class="logomenu">ohmyfood</h1>
+        </div>
             <img src="./img/stil.jpg" alt="menu"/>
     </header>
-    
-    <main style="background-color: antiquewhite;">
+    <main class="choicemenu">
         <form>
-            <h2>La note enchantée</h2><i class="far fa-heart"></i>
+            <h2>La note enchantée</h2><i class="far fa-heart heartmenu"></i>
             <article>
-                <p>ENTRÉES</p>
-                <div>
+                <p class="titlemenu">ENTRÉES</p>
+                <div class="dishesmenu">
                     <input type="radio" id="ravioles" name="entrée" value="ravioles">
                     <label for="ravioles">Ravioles de foie gras Accompagnés de leur crème à la truffe 25€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="caviar" name="entrée" value="caviar">
                     <label for="caviar">Caviar osciètre Sur blini à la farine de blé noir 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="homard" name="entrée" value="homard">
                     <label for="homard">Homard et espuma de... Mariné aux zests d'orange 20€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="Foie" name="entrée" value="Foie">
                     <label for="Foie">Foie gras de canard cuit entier Confiture de figue et pain toasté 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
             </article>
             <article>
-                <p>PLATS</p>
-
-                <div>
+                <p class="titlemenu">PLATS</p>
+                <div class="dishesmenu">
                     <input type="radio" id="noix" name="plats" value="noix">
                     <label for="noix">Noix de coquille Saint-Jacques Sur lit de purée de céleri-rave 40€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="langoustine" name="plats" value="langoustine">
                     <label for="langoustine">Langoustine poêlée Purée de patate douce 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="mijoté" name="plats" value="mijoté">
                     <label for="mijoté">Mijoté de queue de boeuf Et riz sauvage aux zests de citron 44€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
             </article>
             <article>
-                <p>DESSERTS</p>
-
-                <div>
+                <p class="titlemenu">DESSERTS</p>
+                <div class="dishesmenu">
                     <input type="radio" id="macaron" name="desserts" value="macaron">
                     <label for="macaron">Macaron noisette et chocolat Glace au caramel brun et sel de Guérande 18€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="baba" name="desserts" value="baba">
                     <label for="baba">Baba au rhum revisité Avec son coulis de citron 22€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="tarte" name="desserts" value="tarte">
                     <label for="tarte">Tarte au citron meringuée Destructurée 23€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-                    
-                <input type="submit" value="Commander" />
+                <input class="buttonmenu" type="submit" value="Commander" />
             </article>
         </form>
     </main>
@@ -95,10 +85,10 @@
     <!-- Footer -->
 
     <footer style="background-color:cadetblue">
-        <h4>ohmyfood</h4>
-        <ul>
-            <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
-            <li><i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a></li>
+        <h4 class="logofooter">ohmyfood</h4>
+        <ul class="footermenu">
+            <li><i class="fas fa-utensils knife"></i><a href="#">Proposer un restaurant</a></li>
+            <li><i class="fas fa-hands-helping hands"></i><a href="#">Devenir partenaire</a></li>
             <li><a class="bottomlink" href="#">Mentions légales</a></li>
             <li><a class="bottomlink" href="#">Contact</a></li>
         </ul>

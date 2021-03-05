@@ -9,88 +9,80 @@
     <title>ohmyfood</title>
 </head>
 <body>
-
     <header style="background-color: aquamarine;">
-        <i class="fas fa-arrow-left"></i>
-        <h1>ohmyfood</h1>
+        <div class="headermenu">
+            <i class="fas fa-arrow-left arrow"></i>
+            <h1 class="logomenu">ohmyfood</h1>
+        </div>
             <img src="./img/jaywennington.jpg" alt="menu"/>
     </header>
-    
-    <main style="background-color: antiquewhite;">
+    <main class="choicemenu">
         <form>
-            <h2>La palette du goût</h2><i class="far fa-heart"></i>
+            <h2>La palette du goût</h2><i class="far fa-heart heartmenu"></i>
             <article>
-                <p>ENTRÉES</p>
-                <div>
+                <p class="titlemenu">ENTRÉES</p>
+                <div class="dishesmenu">
                     <input type="radio" id="fricassée" name="entrée" value="fricassée">
                     <label for="fricassée">Fricassée d'escargot Au piment d'espelette 25€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="foie" name="entrée" value="foie">
                     <label for="foie">Foie gras de canard mi-cuit Et ses copeaux de truffe noire 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="oeuf" name="entrée" value="oeuf">
                     <label for="oeuf">Oeuf au plat Assaisonné à la truffe sur lit de... 20€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
             </article>
             <article>
-
-                <p>PLATS</p>
-                <div>
+                <p class="titlemenu">PLATS</p>
+                <div class="dishesmenu">
                     <input type="radio" id="filet" name="plats" value="filet">
                     <label for="filet">Filet de boeuf aux herbes Accompagné de sa ribambelle de légu... 40€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="parmentier" name="plats" value="parmentier">
                     <label for="parmentier">Parmentier de queue de boeuf A la truffe noire sur sa purée de panais 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
 
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="filet" name="plats" value="filet">
                     <label for="filet">Filet de Turbot Aux légumes 44€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
             </article>
             <article>
-
-                <p>DESSERTS</p>
-                <div>
+                <p class="titlemenu">DESSERTS</p>
+                <div class="dishesmenu">
                     <input type="radio" id="paris" name="desserts" value="paris">
                     <label for="paris">Paris-Brest Revisité 18€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="macaron" name="desserts" value="macaron">
                     <label for="macaron">Macaron au chocolat d'exception Et glace à la vanille de Madagascar 22€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="mousse" name="desserts" value="mousse">
                     <label for="mousse">Mousse au chocolat Au piment d'espelette et à la truffe noire 23€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <input type="submit" value="Commander "/>
+                <input class="buttonmenu" type="submit" value="Commander" />
             </article>
-        </list>
+        </form>
     </main>
 
     <!-- Footer -->
 
     <footer style="background-color:cadetblue">
-        <h4>ohmyfood</h4>
-        <ul>
+        <h4 class="logofooter">ohmyfood</h4>
+        <ul class="footermenu">
             <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
             <li><i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a></li>
             <li><a class="bottomlink" href="#">Mentions légales</a></li>

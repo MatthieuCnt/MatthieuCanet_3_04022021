@@ -9,7 +9,6 @@
     <title>ohmyfood</title>
 </head>
 <body>
-
     <header style="background-color: aquamarine;">
         <div class="headermenu">
             <i class="fas fa-arrow-left arrow"></i>
@@ -17,25 +16,22 @@
         </div>
             <img src="./img/toaheftiba.jpg" alt="menu" />
     </header>
-    
     <main class="choicemenu">
         <form>
-                <h2>À la française</h2><i class="far fa-heart heartmenu"></i>
+            <h2>À la française</h2><i class="far fa-heart heartmenu"></i>
             <article>
                 <p class="titlemenu">ENTRÉES</p>
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="tarte" name="entrée" value="tarte">
                     <label for="tarte">Tarte de poulpe acidulé Aux zests d'orange 25€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="velouté" name="entrée" value="velouté">
                     <label for="velouté">Velouté de légumes d'antan Carotte, panais, topinambour 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="soupe" name="entrée" value="soupe">
                     <label for="soupe">Soupe à l'oignon Revisitée 20€</label>
                     <i class="fas fa-check-circle"></i>
@@ -43,20 +39,17 @@
             </article>
             <article>
                 <p class="titlemenu">PLATS</p>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="coquille" name="plats" value="coquille">
                     <label for="coquille">Coquilles Saint-Jacques Accompagnées d'une purée de panais 40€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="magret " name="plats" value="magret">
                     <label for="magret">Magret de canard Et parmentier de pommes de terres 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="pigeonneau" name="plats" value="pigeonneau">
                     <label for="pigeonneau">Pigeonneau d'Ille-et-Vilaine Sur son lit de gnocchis aux légumes 44€</label>
                     <i class="fas fa-check-circle"></i>
@@ -64,41 +57,36 @@
             </article>
             <article>
                 <p class="titlemenu">DESSERTS</p>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="pétales" name="desserts" value="pétales">
                     <label for="pétales">Pétales de violettes glacés Et purée de noisettes 18€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="fondant" name="desserts" value="fondant">
                     <label for="fondant">Fondant au chocolat Revisité 35€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
-                <div>
+                <div class="dishesmenu">
                     <input type="radio" id="millefeuille" name="desserts" value="millefeuille">
                     <label for="millefeuille">Millefeuille croustillant Myrtilles et pâte d'amande 23€</label>
                     <i class="fas fa-check-circle"></i>
                 </div>
-
                 <input class="buttonmenu" type="submit" value="Commander" />
             </article>
         </form>
-    
     </main>
 
     <!-- Footer -->
 
     <footer style="background-color:cadetblue">
-        <h4>ohmyfood</h4>
-            <ul>
-                <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
-                <li><i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a></li>
-                <li><a class="bottomlink" href="#">Mentions légales</a></li>
-                <li><a class="bottomlink" href="#">Contact</a></li>
-            </ul>
+        <h4 class="logofooter">ohmyfood</h4>
+        <ul class="footermenu">
+            <li><i class="fas fa-utensils knife"></i><a href="#">Proposer un restaurant</a></li>
+            <li><i class="fas fa-hands-helping hands"></i><a href="#">Devenir partenaire</a></li>
+            <li><a class="bottomlink" href="#">Mentions légales</a></li>
+            <li><a class="bottomlink" href="#">Contact</a></li>
+        </ul>
     </footer>
 </body>
 </html>
