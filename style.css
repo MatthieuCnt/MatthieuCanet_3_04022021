@@ -16,17 +16,45 @@
 	text-align: center;
 }
 
+.logomenu
+{
+	text-align: center;
+}
+
+.arrow
+{
+	padding-left: 1rem;
+	float:left;
+  	position: relative;
+  	top:1rem;
+}
+
+.heartmenu
+{
+	padding-right: 1rem ;
+	float:right;
+  	position: relative;
+	bottom: 1.5rem;
+}
+
 .search
 {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	padding: 0.5rem;
+	background-color: #e5e5e5;
 }
 
 .header
 {
 	text-align: center;
 	padding-top: 2rem;
+}
+
+.headermenu
+{
+	width: 100%;
 }
 
 .explorer
@@ -48,12 +76,27 @@
 	justify-content: column;
 	text-align: center;
 	list-style-type: none;
-	
+}
+
+.choicemenu
+{
+	display: block;
+	position: relative;
+	padding: 1rem;
+	border-radius: 2.5rem 2.5rem 0rem 0rem;
+	margin-top: -2rem;
+	background-color: aqua;
 }
 
 .article
 {
 	padding-bottom: 4rem;
+}
+
+.titlemenu
+{
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
 }
 
 .blockarticle
@@ -77,6 +120,17 @@
 .love
 {
 	padding-left: 25rem;
+}
+
+.buttonmenu
+{
+	display: block;
+	margin: 2rem auto;
+	height: 2.5rem;
+    width: 10rem;
+	border-radius: 1.5rem ;
+	border: none;
+	color: white;
 }
 
 /* Footer du site*/
