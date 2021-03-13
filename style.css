@@ -1,7 +1,5 @@
 /* version mobile*/
 
-
-
 	:root {
 		font-size: 15px;
 	}
@@ -99,7 +97,15 @@ body
 {
 	display: flex;
     justify-content: space-between;
-    grid-area: title;
+	grid-area: title;
+    margin: 2rem 2rem 0rem 2rem;
+	font-weight: bold;
+}
+
+.title1
+{
+	display: flex;
+    justify-content: space-between;
     margin: 2rem 2rem 0rem 2rem;
 	font-weight: bold;
 }
@@ -121,6 +127,7 @@ body
 	color: black;
 	font-weight: bold;
 	padding: 0rem 2.5rem 0rem 2.5rem;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 }
 
 .choicemenu
@@ -173,7 +180,7 @@ body
 
 .blockarticle
 {
-	margin: 0rem 1rem 0rem 1rem;
+	margin: 0rem 2rem 0rem 2rem;
 	border-radius: 1.3rem;
 	color: black;
 	background-color: white;
@@ -231,7 +238,7 @@ body
 /* Footer du site*/
 .footer
 {
-	padding: 1.5rem;
+	padding: 2rem;
 	background-color: #353535;
 }
 
@@ -239,6 +246,7 @@ body
 {
 	color: #fff;
 	font-family: 'Shrikhand';
+	padding-bottom: 1rem;
 }
 
 .logofooter

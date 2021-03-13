@@ -1,5 +1,64 @@
 /* version tablette*/
 
-@media screen and (min-width: 427px) and (max-width: 769px) {
+.logo
+{
+padding: 2rem;
+font-size: 2rem;
+}
 
+.search
+{
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 50%;
+    box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+}
+
+.explorer
+{
+    width: 40%;
+}
+
+.title1
+{
+    margin: 2rem;
+}
+
+.title
+{
+    margin: 2rem 2rem 2rem 0rem;
+}
+
+.choice
+{
+    padding: 2rem 15rem 5rem 15rem;
+}
+
+.resto
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:
+		"title title "
+		"block1 block2"
+		"block3 block4";
+    padding: 2rem;
+}
+
+.blockarticle
+{
+    margin: 0rem;
+}
+
+/* Footer du site*/
+
+.footertitle
+{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.footerul
+{
+    text-align: center;
 }

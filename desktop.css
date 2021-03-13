@@ -8,7 +8,82 @@ body
 	font-family: "Raleway", sans-serif;
 }
 
-
  
 /* Header du site*/
+.logo
+{
+    text-align: left;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.choice
+{
+    padding: 0rem 15rem 2rem 15rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 4rem;
+    text-align: center;
+}
 
+.choicelist
+{
+    line-height: 4rem;
+}
+
+.search
+{
+    padding: 0.5rem;
+    width: 23%;
+    margin-bottom: 1rem;
+}
+
+.intro
+{
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+.explorer
+{
+    width: 25%;
+    font-weight: bold;
+}
+
+.mobile
+{
+	font-size: 1.7rem;
+}
+
+.list
+{
+    font-size: 1.7rem;
+}
+
+.store
+{
+    font-size: 1.7rem;
+}
+
+.title1
+{
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.title
+{
+    margin: 0rem 2rem 0rem 0rem;
+}
+
+.resto
+{
+    grid-template-columns: repeat(4, 1fr);
+	grid-template-areas:
+		"title title title title"
+		"block1 block2 block3 block4";
+    grid-row-gap: 1rem;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+.picture
+{
+    height: 20rem;
+}
