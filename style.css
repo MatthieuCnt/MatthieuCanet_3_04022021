@@ -23,24 +23,27 @@ body
 
 .logomenu
 {
+	padding: 0.5rem 2rem 0.5rem 0rem;
 	text-align: center;
+	font-family: 'Shrikhand';font-size: 2rem;
 }
 
 .arrow
 {
-	padding-left: 1rem;
+	padding-left: 2rem;
+	padding-top: 1.5rem;
 	float: left;
   	position: relative;
-  	top: 1rem;
+  	font-size: 1.3rem;
 }
 
 .heartmenu
 {
 	position: relative;
-	font-size: 2rem;
-	padding-right: 1rem ;
+	font-size: 1.8rem;
+	padding-right: 2rem;
 	float:right;
-	bottom: 1.5rem;
+	bottom: 2.5rem;
 }
 
 .search
@@ -110,6 +113,12 @@ body
 	font-weight: bold;
 }
 
+.titleShrikhand
+{
+	padding-top: 1rem;
+	font-family: 'Shrikhand';font-size: 2rem;
+}
+
 .choice
 {
 	display: grid;
@@ -137,7 +146,7 @@ body
 	padding: 1rem;
 	border-radius: 2.5rem 2.5rem 0rem 0rem;
 	margin-top: -2rem;
-	background-color: aqua;
+	background-color: #F6F6F6;
 }
 
 .mobile
@@ -217,11 +226,12 @@ body
 {
 	display: block;
 	margin: 2rem auto;
-	height: 2.5rem;
+	height: 3rem;
     width: 10rem;
 	border-radius: 1.5rem ;
 	border: none;
 	color: white;
+	background: linear-gradient(to top, #9356DC, #FF79DA);
 }
 
 .dishesmenu
@@ -251,8 +261,9 @@ body
 
 .logofooter
 {
-	padding: 0rem 0rem 0rem 2.5rem;
+	padding-bottom: 1rem;
 	color: #fff;
+	font-family: 'Shrikhand';font-size: 1.2rem;
 }
 
 .footerul
