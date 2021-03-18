@@ -6,18 +6,11 @@ padding: 2rem;
 font-size: 2rem;
 }
 
-.search
-{
-    margin: auto;
-    margin-bottom: 2rem;
-    width: 50%;
-    box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
-}
-
 .explorer
 {
     width: 40%;
 }
+
 
 .title1
 {
@@ -29,10 +22,6 @@ font-size: 2rem;
     margin: 2rem 2rem 2rem 0rem;
 }
 
-.choice
-{
-    padding: 2rem 15rem 5rem 15rem;
-}
 
 .resto
 {
@@ -42,6 +31,7 @@ font-size: 2rem;
 		"title title "
 		"block1 block2"
 		"block3 block4";
+    grid-template-rows: none;
     padding: 2rem;
 }
 
@@ -50,6 +40,10 @@ font-size: 2rem;
     margin: 0rem;
 }
 
+.choicelist
+{
+    width: 100%;
+}
 /* Footer du site*/
 
 .footertitle

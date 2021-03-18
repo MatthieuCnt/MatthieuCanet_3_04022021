@@ -14,10 +14,10 @@ body
 
 .logo
 {
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
+	padding: 0.5rem 0rem;
 	text-align: center;
-	font-family: 'Shrikhand';font-size: 1.8rem;
+	font-family: 'Shrikhand', sans-serif;
+	font-size: 1.8rem;
 	color: black;
 }
 
@@ -25,13 +25,13 @@ body
 {
 	padding: 0.5rem 2rem 0.5rem 0rem;
 	text-align: center;
-	font-family: 'Shrikhand';font-size: 2rem;
+	font-family: 'Shrikhand', sans-serif;
+	font-size: 2rem;
 }
 
 .arrow
 {
-	padding-left: 2rem;
-	padding-top: 1.5rem;
+	padding: 1.5rem 0rem 0rem 2rem;
 	float: left;
   	position: relative;
   	font-size: 1.3rem;
@@ -41,8 +41,7 @@ body
 {
 	position: relative;
 	font-size: 1.8rem;
-	padding-right: 2rem;
-	float:right;
+	float: right;
 	bottom: 2.5rem;
 }
 
@@ -58,12 +57,11 @@ body
 .map
 {
 	position: relative;
-	padding-right: 1rem;
-	padding-top: 0.3rem;
+	padding: 0.2rem 1rem 0rem;
 }
 .location
 {
-	width: 30%;
+	width: 40%;
 	border: none;
 	background-color: #e5e5e5;
 	font-weight: bold;
@@ -71,10 +69,12 @@ body
 
 .intro
 {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	padding: 2rem 5rem 3rem 5rem;
+	align-items: center;
+	height: 18rem;
 	background-color: #F6F6F6;
 }
 
@@ -101,7 +101,7 @@ body
 	display: flex;
     justify-content: space-between;
 	grid-area: title;
-    margin: 2rem 2rem 0rem 2rem;
+    margin: 1rem 2rem 0rem;
 	font-weight: bold;
 }
 
@@ -113,10 +113,19 @@ body
 	font-weight: bold;
 }
 
-.titleShrikhand
+.titleshrikhand
 {
 	padding-top: 1rem;
-	font-family: 'Shrikhand';font-size: 2rem;
+	font-family: 'Shrikhand', sans-serif;
+	font-size: 1.6rem;
+}
+
+.underline
+{
+	margin: -0.8rem 0rem 1rem;
+	height: 0.2rem;
+    width: 15%;
+    background-color: #99e2d0;
 }
 
 .choice
@@ -135,7 +144,7 @@ body
 	background-color: #F6F6F6;
 	color: black;
 	font-weight: bold;
-	padding: 0rem 2.5rem 0rem 2.5rem;
+	text-align: center;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 }
 
@@ -174,44 +183,62 @@ body
 		"block2"
 		"block3"
 		"block4";
+	padding: 2rem 2rem 5rem 2rem;
+	grid-template-rows: auto repeat(4, 13rem);
 	grid-row-gap: 2rem;
 	grid-gap: 2rem;
 	background-color: #F6F6F6;
 	width: 100%;
-	padding-bottom: 5rem;
+}
+
+.block1
+{
+	grid-area: block1;
+}
+
+.block2
+{
+	grid-area: block2;
+}
+
+.block3
+{
+	grid-area: block3;
+}
+
+.block4
+{
+	grid-area: block4;
 }
 
 .titlemenu
 {
-	padding-top: 1.5rem;
-	padding-bottom: 1rem;
+	padding: 1.5rem 0rem 1rem 0rem;
 }
 
 .blockarticle
 {
-	margin: 0rem 2rem 0rem 2rem;
+	display: flex;
+    flex-direction: column;
 	border-radius: 1.3rem;
 	color: black;
 	background-color: white;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	height: 13rem;
 }
 
 .picture
 {
 	object-fit: cover;
 	border-radius: 1.33rem 1.33rem 0rem 0rem;
-	max-height: 100%;
 	width: 100%;
-	height: 15rem;
+	height: calc(100% - 5rem);
 }
 
 .blocktext
 {
-	display: block;
-	flex-direction: column;
-    flex: 1;
+	height: 5rem;
 	padding: 1rem 2rem 1rem 1rem;
-    height: 100%;
 }
 
 .love
@@ -255,7 +282,7 @@ body
 .footertitle
 {
 	color: #fff;
-	font-family: 'Shrikhand';
+	font-family: 'Shrikhand', sans-serif;
 	padding-bottom: 1rem;
 }
 
@@ -263,7 +290,8 @@ body
 {
 	padding-bottom: 1rem;
 	color: #fff;
-	font-family: 'Shrikhand';font-size: 1.2rem;
+	font-family: 'Shrikhand', sans-serif;
+	font-size: 1.2rem;
 }
 
 .footerul
