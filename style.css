@@ -101,7 +101,6 @@ body
 	display: flex;
     justify-content: space-between;
 	grid-area: title;
-    margin: 1rem 2rem 0rem;
 	font-weight: bold;
 }
 
@@ -122,10 +121,98 @@ body
 
 .underline
 {
-	margin: -0.8rem 0rem 1rem;
+	margin: -0.8rem 0rem 0rem 0rem;
 	height: 0.2rem;
-    width: 15%;
+    width: 13%;
     background-color: #99e2d0;
+}
+
+.gridmenu
+{
+	display: grid;
+    grid-template-areas:
+        "menu1"
+        "menu2"
+        "menu3";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+
+.gridmenu1
+{
+	display: grid;
+    grid-template-areas:
+        "menu4"
+        "menu5"
+        "menu6";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+
+.gridmenu2
+{
+	display: grid;
+    grid-template-areas:
+        "menu7"
+        "menu8"
+        "menu9";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+.menutitle
+{
+	grid-area: menutitle;
+}
+
+.menu1
+{
+	grid-area: menu1;
+}
+
+.menu2
+{
+	grid-area: menu2;
+}
+
+.menu3
+{
+	grid-area: menu3;
+}
+
+.menu4
+{
+	grid-area: menu4;
+}
+
+.menu5
+{
+	grid-area: menu5;
+}
+
+.menu6
+{
+	grid-area: menu6;
+}
+
+.menu7
+{
+	grid-area: menu7;
+}
+
+.menu8
+{
+	grid-area: menu8;
+}
+
+.menu9
+{
+	grid-area: menu9;
 }
 
 .choice
@@ -142,10 +229,10 @@ body
 	line-height: 5rem;
 	border-radius: 1.5rem;
 	background-color: #F6F6F6;
-	color: black;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	padding-left: 2rem;
 }
 
 .choicemenu
@@ -162,16 +249,24 @@ body
 {
 	padding-right: 1.5rem;
 	font-size: 1.3rem;
+	color: #7E7E7E;
 }
 
 .list
 {
 	padding-right: 1.5rem;
+	color: #7E7E7E;
 }
 
 .store
 {
 	padding-right: 1.5rem;
+	color: #7E7E7E;
+}
+
+.text
+{
+	color: black;
 }
 
 .resto
@@ -266,7 +361,6 @@ body
 	display: flex;
 	height: 5rem;
 	width: 100%;
-	margin-bottom: 1rem;
 	border-radius: 1rem;
 	align-items: center;
     background-color: #fff;
@@ -284,6 +378,7 @@ body
 	color: #fff;
 	font-family: 'Shrikhand', sans-serif;
 	padding-bottom: 1rem;
+	font-size: 1.3rem;
 }
 
 .logofooter
