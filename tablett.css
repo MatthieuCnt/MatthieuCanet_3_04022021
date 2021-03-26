@@ -1,5 +1,12 @@
 /* version tablette*/
 
+    :root {
+        font-size: 13px;
+    }
+
+
+/* Header du site*/
+
 .logo
 {
 padding: 2rem;
@@ -11,17 +18,16 @@ font-size: 2rem;
     width: 40%;
 }
 
-
-.title1
+.choice
 {
-    margin: 2rem;
+    padding: 2rem 8rem 4rem 8rem;
 }
 
-.title
+.choicelist
 {
-    margin: 2rem 2rem 2rem 0rem;
+    text-align: center;
+    padding-left: 0;
 }
-
 
 .resto
 {
@@ -38,6 +44,7 @@ font-size: 2rem;
 .blockarticle
 {
     margin: 0rem;
+    height: 16rem;
 }
 
 .choicelist

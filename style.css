@@ -1,7 +1,7 @@
 /* version mobile*/
 
 	:root {
-		font-size: 15px;
+		font-size: 10px;
 	}
 
 /* Initialisation du style*/
@@ -14,10 +14,10 @@ body
 
 .logo
 {
-	padding: 0.5rem 0rem;
+	padding: 1rem 0rem;
 	text-align: center;
 	font-family: 'Shrikhand', helvetica, sans-serif;
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	color: black;
 }
 
@@ -68,7 +68,7 @@ body
 }
 .location
 {
-	width: 40%;
+	width: 8rem;
 	border: none;
 	background-color: #e5e5e5;
 	font-weight: bold;
@@ -82,6 +82,7 @@ body
 	text-align: center;
 	align-items: center;
 	height: 18rem;
+	padding: 0rem 2rem;
 	background-color: #F6F6F6;
 }
 
@@ -92,7 +93,7 @@ body
 
 .explorer
 {
-	
+	font-size: 1.1rem;
 	height: 3rem;
     width: 70%;
 	margin-top: 1rem;
@@ -101,7 +102,6 @@ body
 	color: white;
 	background: linear-gradient(to top, #9356DC, #FF79DA);
 }
-
 	
 .title
 {
@@ -262,6 +262,28 @@ body
 	text-align: left;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 	padding-left: 2rem;
+	font-size: 1.1rem;
+}
+
+.choicelistcolor:hover
+{
+	background-color: rgba(147, 86, 220, 0.1);
+	box-shadow: 0rem 0.5rem 0.8rem #9c9c9c;
+}
+
+.choicelistcolor:hover .mobile
+{
+	color: #9356DC;
+}
+
+.choicelistcolor:hover .list
+{
+	color: #9356DC;
+}
+
+.choicelistcolor:hover .store
+{
+	color: #9356DC;
 }
 
 .choicemenu
@@ -312,7 +334,6 @@ body
 	grid-row-gap: 2rem;
 	grid-gap: 2rem;
 	background-color: #F6F6F6;
-	width: 100%;
 }
 
 .block1
