@@ -95,7 +95,7 @@ body
 {
 	font-size: 1.1rem;
 	height: 3rem;
-    width: 70%;
+    width: 60%;
 	margin-top: 1rem;
 	border-radius: 1.5rem;
 	border: none;
@@ -265,27 +265,30 @@ body
 	font-size: 1.1rem;
 }
 
-.choicelistcolor:hover
+.choicelistcolor
 {
 	background-color: rgba(147, 86, 220, 0.1);
 	box-shadow: 0rem 0.5rem 0.8rem #9c9c9c;
 }
 
-.choicelistcolor:hover .mobile
+.choicelistcolor .store
 {
 	color: #9356DC;
 }
 
-.choicelistcolor:hover .list
-{
-	color: #9356DC;
+.number
+{	
+	display: flex;
+	position: absolute;
+	height: 25px;
+    width: 25px;
+	align-items: center;
+	justify-content: center;
+	margin: 1.2rem 0rem 0rem -3.2rem;
+    border-radius: 50%;
+    background-color: #9356dc;
+	color: white;
 }
-
-.choicelistcolor:hover .store
-{
-	color: #9356DC;
-}
-
 .choicemenu
 {
 	display: block;
@@ -370,6 +373,16 @@ body
 	background-color: white;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 	height: 13rem;
+}
+
+.new
+{
+	position: absolute;
+	margin-top: 1rem;
+	right: 3rem;
+    background-color: #99e2d0;
+	padding: 0.3rem 1rem;
+	color: #008766;
 }
 
 .picture
