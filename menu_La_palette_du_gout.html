@@ -6,6 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="normalizer.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="tablett.css" media="screen AND (min-width: 426px)"/>
+    <link rel="stylesheet" type="text/css" href="desktop.css" media="screen AND (min-width: 769px)"/>
     <script src="https://kit.fontawesome.com/5f95a73160.js" crossorigin="anonymous"></script>
     <title>ohmyfood</title>
 </head>
@@ -25,19 +27,33 @@
                 <div class="underline"></div>
                 <div class="gridmenu">
                     <div class="dishesmenu menu1">
-                        <input type="radio" id="fricassee" name="starter" value="fricassee">
-                        <label for="fricassee">Fricassée d'escargot Au piment d'espelette 25€</label>
-                        <i class="fas fa-check-circle"></i>
-                    </div>
+                        <input class="menu" type="radio" id="fricassee" name="starter" value="fricassee">
+                        <div class="textmenu">
+                            <h3>Fricassée d'escargot</h3>
+                            <h5>Au piment d'espelette</h5>
+                        </div>
+                        <div class="price">25€</div>
+                            <i class="fas fa-check-circle circle"></i>
+                        </div>
+
                     <div class="dishesmenu menu2">
-                        <input type="radio" id="liver" name="starter" value="liver">
-                        <label for="liver">Foie gras de canard mi-cuit Et ses copeaux de truffe noire 35€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu" type="radio" id="liver" name="starter" value="liver">
+                        <div class="textmenu">
+                            <h3>Foie gras de canard mi-cuit</h3>
+                            <h5>Et ses copeaux de truffe noire</h5>
+                        </div>
+                        <div class="price">35€</div>
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
+
                     <div class="dishesmenu menu3">
-                        <input type="radio" id="egg" name="starter" value="egg">
-                        <label for="egg">Oeuf au plat Assaisonné à la truffe sur lit de caviar 20€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu" type="radio" id="egg" name="starter" value="egg">
+                        <div class="textmenu">
+                            <h3>Oeuf au plat</h3>
+                            <h5>Assaisonné à la truffe sur lit de caviar</h5>
+                        </div>
+                        <div class="price">20€</div>
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
                 </div>
             </article>
@@ -46,19 +62,33 @@
                 <div class="underline"></div>
                 <div class="gridmenu1">
                     <div class="dishesmenu menu4">
-                        <input type="radio" id="filet" name="maincourse" value="filet">
-                        <label for="filet">Filet de boeuf aux herbes Accompagné de sa ribambelle de légumes 40€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu" type="radio" id="filet" name="maincourse" value="filet">
+                        <div class="textmenu">
+                            <h3>Filet de boeuf aux herbes</h3>
+                            <h5>Accompagné de sa ribambelle de légumes</h5>
+                        </div>
+                        <div class="price">40€</div>
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
+
                     <div class="dishesmenu menu5">
-                        <input type="radio" id="parmentier" name="maincourse" value="parmentier">
-                        <label for="parmentier">Parmentier de queue de boeuf A la truffe noire sur sa purée de panais 35€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu" type="radio" id="parmentier" name="maincourse" value="parmentier">
+                        <div class="textmenu">
+                            <h3>Parmentier de queue de boeuf</h3>
+                            <h5>A la truffe noire sur sa purée de panais</h5>
+                        </div>
+                        <div class="price">35€</div>
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
+
                     <div class="dishesmenu menu6">
-                        <input type="radio" id="filet" name="maincourse" value="filet">
-                        <label for="filet">Filet de Turbot Aux légumes 44€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu" type="radio" id="filet" name="maincourse" value="filet">
+                        <div class="textmenu">
+                            <h3>Filet de Turbot</h3>
+                            <h5>Aux légumes</h5>
+                        </div>
+                        <div class="price">44€</div>
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
                 </div>
             </article>
@@ -67,19 +97,33 @@
                 <div class="underline"></div>
                 <div class="gridmenu2">
                     <div class="dishesmenu menu7">
-                        <input type="radio" id="paris" name="desserts" value="paris">
-                        <label for="paris">Paris-Brest Revisité 18€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu" type="radio" id="paris" name="desserts" value="paris">
+                        <div class="textmenu">
+                            <h3>Paris-Brest</h3>
+                            <h5>Revisité</h5>
+                        </div>
+                        <div class="price">18€</div>
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
+
                     <div class="dishesmenu menu8">
-                        <input type="radio" id="macaron" name="desserts" value="macaron">
-                        <label for="macaron">Macaron au chocolat d'exception Et glace à la vanille de Madagascar 22€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu" type="radio" id="macaron" name="desserts" value="macaron">
+                        <div class="textmenu">
+                            <h3>Macaron au chocolat d'exception</h3>
+                            <h5>Et glace à la vanille de Madagascar</h5>
+                        </div>
+                        <div class="price">22€</div>
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
+
                     <div class="dishesmenu menu9">
-                        <input type="radio" id="mousse" name="desserts" value="mousse">
-                        <label for="mousse">Mousse au chocolat Au piment d'espelette et à la truffe noire 23€</label>
-                        <i class="fas fa-check-circle"></i>
+                        <input class="menu"type="radio" id="mousse" name="desserts" value="mousse">
+                        <div class="textmenu">
+                            <h3>Mousse au chocolat</h3>
+                            <h5>Au piment d'espelette et à la truffe noire</h5>
+                        </div>
+                        <div class="price">23€</div>  
+                        <i class="fas fa-check-circle circle"></i>
                     </div>
                 </div>
                 <input class="buttonmenu" type="submit" value="Commander" />

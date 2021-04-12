@@ -51,19 +51,24 @@ body
     width: 20rem;
 }
 
+.number
+{
+    margin: 1rem 0rem 0rem -0.8rem;
+}
+
 .mobile
 {
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 }
 
 .list
 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 .store
 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 .title1
@@ -75,6 +80,7 @@ body
 {
     margin: 0rem 2rem 0rem 0rem;
 }
+
 
 .resto
 {
@@ -88,6 +94,39 @@ body
     padding-top: 1rem;
 }
 
+.gridmenu
+{
+   grid-template-areas:
+    "menu1 menu2 menu3";
+    grid-column-gap: 1rem;
+    grid-template-rows: none;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu1
+{
+   grid-template-areas:
+    "menu4 menu5 menu6";
+    grid-column-gap: 1rem;
+    grid-template-rows: none;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu2
+{
+   grid-template-areas:
+    "menu7 menu8 menu9";
+    grid-column-gap: 1rem;
+    grid-template-rows: none;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.new
+{
+    left: auto;
+    right: auto;
+}
+
 .blockarticle
 {
     height: 20rem;
@@ -97,3 +136,28 @@ body
 {
     height: 14rem;
 }
+
+.price
+{
+    padding: 2rem 0.5rem 0rem;
+}
+
+.buttonmenu
+{
+    height: 3.5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+}
+
+.logofooter
+{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.footermenu
+{
+    text-align: center;
+}
+
+
