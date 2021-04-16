@@ -81,6 +81,10 @@ body
     margin: 0rem 2rem 0rem 0rem;
 }
 
+.underline
+{
+    width: 4%;
+}
 
 .resto
 {
@@ -123,8 +127,7 @@ body
 
 .new
 {
-    left: auto;
-    right: auto;
+    margin-left: 7rem;
 }
 
 .blockarticle

@@ -20,7 +20,7 @@ font-size: 2rem;
 
 .choice
 {
-    padding: 2rem 8rem 4rem 8rem;
+    padding: 2rem 10rem 4rem 10rem;
 }
 
 .choicelist
@@ -29,6 +29,25 @@ font-size: 2rem;
     padding-left: 0;
 }
 
+.number
+{
+    margin: 1.5rem 0rem 0rem -1rem;
+}
+
+.list
+{
+    padding-right: 2.5rem;
+}
+
+.store
+{
+        padding-right: 2rem;
+}
+
+.underline
+{
+    width: 8%;
+}
 .resto
 {
     display: grid;
@@ -41,6 +60,12 @@ font-size: 2rem;
     padding: 2rem;
 }
 
+.new
+{
+    right: unset;
+    margin-left: 18.5rem;
+}
+
 .blockarticle
 {
     margin: 0rem;
@@ -51,12 +76,29 @@ font-size: 2rem;
 {
     width: 100%;
 }
+
+.love
+{
+    padding: 1rem 0rem 0rem 5rem;
+}
+
 /* Footer du site*/
+
+.logofooter
+{
+    text-align: center;
+    font-size: 1.8rem;
+}
 
 .footertitle
 {
     text-align: center;
     font-size: 1.8rem;
+}
+
+.footermenu
+{
+    text-align: center;
 }
 
 .footerul
