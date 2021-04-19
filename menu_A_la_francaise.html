@@ -6,79 +6,131 @@
     <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="normalizer.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="tablett.css" media="screen AND (min-width: 426px)"/>
+    <link rel="stylesheet" type="text/css" href="desktop.css" media="screen AND (min-width: 769px)"/>
     <script src="https://kit.fontawesome.com/5f95a73160.js" crossorigin="anonymous"></script>
     <title>ohmyfood</title>
 </head>
 <body>
     <header>
         <div class="headermenu">
-            <i class="fas fa-arrow-left arrow"></i>
-            <h1 class="logomenu">ohmyfood</h1>
+            <a href="index.html" class="fas fa-arrow-left arrow"></a>
+            <a href="index.html" class="logomenu">ohmyfood</a>
         </div>
-            <img src="./img/toaheftiba.jpg" alt="menu" />
+            <img class="headerpicture" src="./img/toaheftiba.jpg" alt="menu" />
     </header>
     <main class="choicemenu">
-        <form>
-            <h2>À la française</h2><i class="far fa-heart heartmenu"></i>
+        <section>
+            <h2 class="titleshrikhand">À la française</h2><i class="far fa-heart heartmenu"></i>
             <article>
                 <p class="titlemenu">ENTRÉES</p>
                 <div class="underline"></div>
-                <div class="dishesmenu">
-                    <input type="radio" id="pie" name="starter" value="pie">
-                    <label for="pie">Tarte de poulpe acidulé Aux zests d'orange 25€</label>
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <div class="dishesmenu">
-                    <input type="radio" id="soup" name="starter" value="soup">
-                    <label for="soup">Velouté de légumes d'antan Carotte, panais, topinambour 35€</label>
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <div class="dishesmenu">
-                    <input type="radio" id="soup" name="starter" value="soup">
-                    <label for="soup">Soupe à l'oignon Revisitée 20€</label>
-                    <i class="fas fa-check-circle"></i>
+                <div class="gridmenu6">
+                    <div class="dishesmenu menu20">
+                        <div class="menu"></div>
+                        <div class="textmenu">
+                            <h3>Tarte de poulpe acidulé</h3>
+                            <h5>Aux zests d'orange</h5>
+                        </div>
+                        <div class="price">25€</div>
+                        <i class="fas fa-check-circle circle"></i>
+                    </div>
+
+                    <div class="dishesmenu menu21">
+                        <input class="menu" type="radio" id="soup" name="starter" value="soup">
+                        <div class="textmenu">
+                            <h3>Velouté de légumes d'antan</h3>
+                            <h5>Carotte, panais, topinambour</h5>
+                        </div>
+                        <div class="price">35€</div>
+                        <i class="fas fa-check-circle circle"></i>
+                    </div>
+
+                    <div class="dishesmenu menu22">
+                        <input class="menu" type="radio" id="soup" name="starter" value="soup">
+                        <div class="textmenu">
+                            <h3>Soupe à l'oignon </h3>
+                            <h5>Revisitée</h5>
+                        </div>
+                        <div class="price">20€</div>
+                        <i class="fas fa-check-circle circle"></i>
+                    </div>
+
                 </div>
             </article>
             <article>
                 <p class="titlemenu">PLATS</p>
                 <div class="underline"></div>
-                <div class="dishesmenu">
-                    <input type="radio" id="shell" name="maincourse" value="shell">
-                    <label for="shell">Coquilles Saint-Jacques Accompagnées d'une purée de panais 40€</label>
-                    <i class="fas fa-check-circle"></i>
+                <div class="gridmenu7">
+                <div class="dishesmenu menu23">
+                    <input class="menu" type="radio" id="shell" name="maincourse" value="shell">
+                    <div class="textmenu">
+                        <h3>Coquilles Saint-Jacques</h3>
+                        <h5>Accompagnées d'une purée de panais</h5>
+                    </div>
+                    <div class="price">40€</div>
+                    <i class="fas fa-check-circle circle"></i>
                 </div>
-                <div class="dishesmenu">
-                    <input type="radio" id="magret" name="maincourse" value="magret">
-                    <label for="magret">Magret de canard Et parmentier de pommes de terres 35€</label>
-                    <i class="fas fa-check-circle"></i>
+
+                <div class="dishesmenu menu24">
+                    <input class="menu" type="radio" id="magret" name="maincourse" value="magret">
+                    <div class="textmenu">
+                        <h3>Magret de canard</h3>
+                        <h5>Et parmentier de pommes de terres</h5>
+                    </div>
+                    <div class="price">35€</div>
+                    <i class="fas fa-check-circle circle"></i>
                 </div>
-                <div class="dishesmenu">
-                    <input type="radio" id="pigeon" name="maincourse" value="pigeon">
-                    <label for="pigeon">Pigeonneau d'Ille-et-Vilaine Sur son lit de gnocchis aux légumes 44€</label>
-                    <i class="fas fa-check-circle"></i>
+
+                <div class="dishesmenu menu25">
+                    <input class="menu" type="radio" id="pigeon" name="maincourse" value="pigeon">
+                    <div class="textmenu">
+                        <h3>Pigeonneau d'Ille-et-Vilaine</h3>
+                        <h5>Sur son lit de gnocchis aux légumes</h5>
+                    </div>
+                    <div class="price">44€</div>
+                    <i class="fas fa-check-circle circle"></i>
                 </div>
+
             </article>
             <article>
                 <p class="titlemenu">DESSERTS</p>
                 <div class="underline"></div>
-                <div class="dishesmenu">
-                    <input type="radio" id="petals" name="desserts" value="petals">
-                    <label for="petals">Pétales de violettes glacés Et purée de noisettes 18€</label>
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <div class="dishesmenu">
-                    <input type="radio" id="fondant" name="desserts" value="fondant">
-                    <label for="fondant">Fondant au chocolat Revisité 35€</label>
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <div class="dishesmenu">
-                    <input type="radio" id="millefeuille" name="desserts" value="millefeuille">
-                    <label for="millefeuille">Millefeuille croustillant Myrtilles et pâte d'amande 23€</label>
-                    <i class="fas fa-check-circle"></i>
+                <div class="gridmenu8">
+                    <div class="dishesmenu menu26">
+                        <input class="menu" type="radio" id="petals" name="desserts" value="petals">
+                        <div class="textmenu">
+                            <h3>Pétales de violettes glacés</h3>
+                            <h5>Et purée de noisettes</h5>
+                        </div>
+                        <div class="price">18€</div>
+                        <i class="fas fa-check-circle circle"></i>
+                    </div>
+
+                    <div class="dishesmenu menu27">
+                        <input class="menu" type="radio" id="fondant" name="desserts" value="fondant">
+                        <div class="textmenu">
+                            <h3>Fondant au chocolat</h3>
+                            <h5>Revisité</h5>
+                        </div>
+                        <div class="price">22€</div>
+                        <i class="fas fa-check-circle circle"></i>
+                    </div>
+
+                    <div class="dishesmenu menu28">
+                        <input class="menu" type="radio" id="millefeuille" name="desserts" value="millefeuille">
+                        <div class="textmenu">
+                            <h3>Millefeuille croustillant</h3>
+                            <h5>Myrtilles et pâte d'amande</h5>
+                        </div>
+                        <div class="price">23€</div>
+                        <i class="fas fa-check-circle circle"></i>
+                    </div>
+
                 </div>
                 <input class="buttonmenu" type="submit" value="Commander" />
             </article>
-        </form>
+        </section>
     </main>
 
     <!-- Footer -->

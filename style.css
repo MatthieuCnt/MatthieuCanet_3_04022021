@@ -138,7 +138,7 @@ body
 {
 	margin: -0.8rem 0rem 0rem 0rem;
 	height: 0.2rem;
-    width: 8%;
+    width: 6%;
     background-color: #99e2d0;
 }
 
@@ -224,6 +224,84 @@ body
 	padding-top: 2rem;
     width: 100%;
 }
+
+.gridmenu6
+{
+	display: grid;
+    grid-template-areas:
+        "menu20"
+        "menu21"
+        "menu22";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+
+.gridmenu7
+{
+	display: grid;
+    grid-template-areas:
+        "menu23"
+        "menu24"
+        "menu25";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+
+.gridmenu8
+{
+	display: grid;
+    grid-template-areas:
+        "menu26"
+        "menu27"
+        "menu28";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+
+.gridmenu9
+{
+	display: grid;
+    grid-template-areas:
+        "menu29"
+        "menu30"
+        "menu31";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+
+.gridmenu10
+{
+	display: grid;
+    grid-template-areas:
+        "menu32"
+        "menu33"
+        "menu34";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
+
+.gridmenu11
+{
+	display: grid;
+    grid-template-areas:
+        "menu35"
+        "menu36"
+        "menu37";
+    grid-template-rows: auto repeat(2, auto);
+    grid-row-gap: 1rem;
+	padding-top: 2rem;
+    width: 100%;
+}
 .menutitle
 {
 	grid-area: menutitle;
@@ -304,7 +382,78 @@ body
 {
 	grid-area: menu19;
 }
-
+.menu20
+{
+	grid-area: menu20;
+}
+.menu21
+{
+	grid-area: menu21;
+}
+.menu22
+{
+	grid-area: menu22;
+}
+.menu23
+{
+	grid-area: menu23;
+}
+.menu24
+{
+	grid-area: menu24;
+}
+.menu25
+{
+	grid-area: menu25;
+}
+.menu26
+{
+	grid-area: menu26;
+}
+.menu27
+{
+	grid-area: menu27;
+}
+.menu28
+{
+	grid-area: menu28;
+}
+.menu29
+{
+	grid-area: menu29;
+}
+.menu30
+{
+	grid-area: menu30;
+}
+.menu31
+{
+	grid-area: menu31;
+}
+.menu32
+{
+	grid-area: menu32;
+}
+.menu33
+{
+	grid-area: menu33;
+}
+.menu34
+{
+	grid-area: menu34;
+}
+.menu35
+{
+	grid-area: menu35;
+}
+.menu36
+{
+	grid-area: menu36;
+}
+.menu37
+{
+	grid-area: menu37;
+}
 .choice
 {
 	display: grid;
