@@ -638,6 +638,11 @@ body
     background-color: #fff;
 }
 
+.dishesmenu:hover > .menucircle
+{
+	display: block;
+}
+
 .textmenu
 {
 	width: 85%;
@@ -657,6 +662,11 @@ body
 	font-size: 1.4rem;
 	color: #fff;
 	background-color: #99e2d0;
+}
+
+.menucircle
+{
+	display: none;
 }
 
 /* Footer du site*/
