@@ -142,10 +142,7 @@ body
     background-color: #99e2d0;
 }
 
-.menu
-{
-	display: none;
-}
+
 .gridmenu
 {
 	display: grid;
@@ -571,7 +568,8 @@ body
 
 .titlemenu
 {
-	padding: 1.5rem 0rem 1rem 0rem;
+	padding-bottom: 4px;
+	border-bottom: 2px solid  #99e2d0;
 }
 
 .blockarticle
@@ -589,7 +587,7 @@ body
 	margin-top: 1rem;
 	right: 3rem;
     background-color: #99e2d0;
-	padding: 0.3rem 1rem;
+	padding: 0.5rem 1.5rem;
 	color: #008766;
 }
 
@@ -641,12 +639,27 @@ body
 .dishesmenu:hover > .menucircle
 {
 	display: block;
+	animation: scale 200ms;
+}
+
+
+@-webkit-keyframes .circle
+{
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to { 
+		-webkit-transform: rotate(180deg);
+	}
 }
 
 .textmenu
 {
 	width: 85%;
 	padding-left: 1.5rem;
+	text-overflow: ellipsis;
+	text-overflow: "…";
+	white-space:nowrap;
 }
 
 .price
@@ -662,6 +675,7 @@ body
 	font-size: 1.4rem;
 	color: #fff;
 	background-color: #99e2d0;
+	transform: rotate(180deg) 5s linear;
 }
 
 .menucircle

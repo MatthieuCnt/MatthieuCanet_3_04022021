@@ -86,6 +86,11 @@ body
     width: 4%;
 }
 
+.menucircle
+{
+    margin-left: 1.5rem;
+}
+
 .resto
 {
     grid-template-columns: repeat(4, 1fr);
