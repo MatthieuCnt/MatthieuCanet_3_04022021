@@ -541,7 +541,6 @@ body
 		"block4";
 	padding: 2rem 2rem 5rem 2rem;
 	grid-template-rows: auto repeat(4, 23rem);
-	grid-row-gap: 2rem;
 	grid-gap: 2rem;
 	background-color: #F6F6F6;
 }
@@ -626,6 +625,10 @@ body
 	background: linear-gradient(to top, #9356DC, #FF79DA);
 }
 
+.menuarticle
+{
+	padding-top: 2rem;
+}
 .dishesmenu
 {
 	display: flex;
@@ -655,17 +658,20 @@ body
 
 .textmenu
 {
-	width: 85%;
-	padding-left: 1.5rem;
+	width: 95%;
+	padding: 1.5rem 0rem 0rem 1rem;
 	text-overflow: ellipsis;
-	text-overflow: "…";
 	white-space:nowrap;
 }
 
 .price
 {
-	padding: 2rem 2rem 0rem 2rem;
+	position: relative;
+    font-size: 1.8rem;
+    float: right;
+    bottom: 1.5rem;
 	font-size: 1.2rem;
+	padding-right: 1rem;
 }
 
 .circle
