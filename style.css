@@ -49,15 +49,6 @@ body
 	color: black;
 }
 
-.heartmenu
-{
-	position: relative;
-	font-size: 1.8rem;
-	float: right;
-	bottom: 2.5rem;
-	padding-right: 3rem;
-}
-
 .search
 {
 	display: flex;
@@ -608,9 +599,37 @@ body
 .love
 {
 	position: relative;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	float: right;
 	bottom: 2.5rem;
+	transition: color 2s;
+}
+
+.love:hover
+{
+	background: -webkit-linear-gradient(top,#9356DC, #FF79DA);
+	background-clip: inherit;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+.heartmenu
+{
+	position: relative;
+	font-size: 1.8rem;
+	float: right;
+	bottom: 2.5rem;
+	padding-right: 3rem;
+	transition: color 2s;
+}
+
+.heartmenu:hover
+{
+	background: -webkit-linear-gradient(top,#9356DC, #FF79DA);
+	background-clip: inherit;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
 }
 
 .buttonmenu
@@ -619,7 +638,7 @@ body
 	margin: 2rem auto;
 	height: 3rem;
     width: 10rem;
-	border-radius: 1.5rem ;
+	border-radius: 1.5rem;
 	border: none;
 	color: white;
 	background: linear-gradient(to top, #9356DC, #FF79DA);
@@ -627,66 +646,81 @@ body
 
 .menuarticle
 {
+	max-width: 100%;
 	padding-top: 2rem;
+
 }
 .dishesmenu
 {
 	display: flex;
-	height: 5rem;
+	height: 6rem;
 	width: 100%;
 	border-radius: 1rem;
 	align-items: center;
+	cursor: pointer;
     background-color: #fff;
 }
 
-.dishesmenu:hover > .menucircle
+.dishesmenu:hover >.menucircle__animation
 {
-	display: block;
-	animation: scale 200ms;
+	visibility: visible;
+	transition: all .5s ease-in;
+    -webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
 }
 
-
-@-webkit-keyframes .circle
+.dishesmenu:hover >.menucircle__animation .menucircle__icon
 {
-	from {
-		-webkit-transform: rotate(0deg);
-	}
-	to { 
-		-webkit-transform: rotate(180deg);
-	}
+	transform: rotate(-360deg);
+	transition-duration: 1s;
 }
 
 .textmenu
 {
-	width: 95%;
-	padding: 1.5rem 0rem 0rem 1rem;
+	width: 100%;
+	padding: 3rem 0rem 0rem 1rem;
 	text-overflow: ellipsis;
 	white-space:nowrap;
+	overflow: hidden;
+}
+
+.textmenu__title
+{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.textmenu__text
+{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .price
 {
+	display: flex;
+	justify-content: flex-end;
+    font-size: 1.3rem;
+	align-items: flex-end;
+	padding-bottom: 3rem;
+}
+
+.menucircle__animation
+{
+	display: flex;
 	position: relative;
+	left: 5.4rem;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    border-radius: 0rem 1rem 1rem 0rem;
     font-size: 1.8rem;
-    float: right;
-    bottom: 1.5rem;
-	font-size: 1.2rem;
-	padding-right: 1rem;
-}
-
-.circle
-{
-	padding: 2rem;
-	border-radius: 0rem 1rem 1rem 0rem;
-	font-size: 1.4rem;
-	color: #fff;
+    visibility: hidden;
 	background-color: #99e2d0;
-	transform: rotate(180deg) 5s linear;
-}
-
-.menucircle
-{
-	display: none;
+	color: #fff;
 }
 
 /* Footer du site*/

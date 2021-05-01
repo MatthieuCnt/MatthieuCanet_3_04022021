@@ -81,11 +81,6 @@ body
     margin: 0rem 2rem 0rem 0rem;
 }
 
-.underline
-{
-    width: 4%;
-}
-
 .menucircle
 {
     margin-left: 1.5rem;
@@ -124,7 +119,8 @@ body
 .gridmenu2
 {
    grid-template-areas:
-    "menu7 menu8 menu9";
+    "menu7 menu8 menu9"
+    ". buttonmenu .";
     grid-column-gap: 1rem;
     grid-template-rows: none;
     grid-template-columns: 32.5% 32.5% 32.5%;
@@ -132,7 +128,7 @@ body
 
 .new
 {
-    margin-left: 7rem;
+    margin-left: 21rem;
 }
 
 .blockarticle
@@ -145,16 +141,14 @@ body
     height: 14rem;
 }
 
-.price
+.menucircle__animation
 {
-    padding: 2rem 0.5rem 0rem;
+	left: 7rem;
 }
 
 .buttonmenu
 {
-    height: 3.5rem;
-    width: 15rem;
-    font-size: 1.5rem;
+    grid-area: buttonmenu;  
 }
 
 .logofooter
