@@ -141,10 +141,9 @@ body
         "menu1"
         "menu2"
         "menu3";
-    grid-template-rows: auto repeat(2, auto);
+    grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu1
@@ -154,10 +153,9 @@ body
         "menu4"
         "menu5"
         "menu6";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu2
@@ -167,10 +165,9 @@ body
         "menu7"
         "menu8"
         "menu9";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu3
@@ -181,10 +178,9 @@ body
         "menu11"
         "menu12"
 		"menu13";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(4, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu4
@@ -194,10 +190,9 @@ body
         "menu14"
         "menu15"
         "menu16";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu5
@@ -207,10 +202,9 @@ body
         "menu17"
         "menu18"
         "menu19";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu6
@@ -220,10 +214,9 @@ body
         "menu20"
         "menu21"
         "menu22";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu7
@@ -233,10 +226,9 @@ body
         "menu23"
         "menu24"
         "menu25";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu8
@@ -246,10 +238,9 @@ body
         "menu26"
         "menu27"
         "menu28";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu9
@@ -259,10 +250,9 @@ body
         "menu29"
         "menu30"
         "menu31";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu10
@@ -272,10 +262,9 @@ body
         "menu32"
         "menu33"
         "menu34";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 
 .gridmenu11
@@ -285,10 +274,9 @@ body
         "menu35"
         "menu36"
         "menu37";
-    grid-template-rows: auto repeat(2, auto);
+	grid-template-rows: repeat(3, 6rem);
     grid-row-gap: 1rem;
 	padding-top: 2rem;
-    width: 100%;
 }
 .menutitle
 {
@@ -653,23 +641,20 @@ body
 .dishesmenu
 {
 	display: flex;
-	height: 6rem;
 	width: 100%;
 	border-radius: 1rem;
-	align-items: center;
 	cursor: pointer;
     background-color: #fff;
 }
 
 .dishesmenu:hover >.menucircle__animation
 {
-	visibility: visible;
+	display: block;
 	transition: all .5s ease-in;
-    -webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
 }
 
-.dishesmenu:hover >.menucircle__animation .menucircle__icon
+.dishesmenu:hover > .menucircle__animation .menucircle__icon
 {
 	transform: rotate(-360deg);
 	transition-duration: 1s;
@@ -677,8 +662,9 @@ body
 
 .textmenu
 {
-	width: 100%;
-	padding: 3rem 0rem 0rem 1rem;
+	position: relative;
+	width: 80%;
+	padding: 1rem;
 	text-overflow: ellipsis;
 	white-space:nowrap;
 	overflow: hidden;
@@ -700,27 +686,62 @@ body
 
 .price
 {
-	display: flex;
-	justify-content: flex-end;
-    font-size: 1.3rem;
+	position: absolute;
 	align-items: flex-end;
-	padding-bottom: 3rem;
+    font-size: 1.3rem;
+	bottom: 1rem;
+	right: 1rem;
+	
 }
 
 .menucircle__animation
 {
-	display: flex;
-	position: relative;
-	left: 5.4rem;
-    justify-content: center;
-    align-items: center;
     width: 20%;
-    height: 100%;
     border-radius: 0rem 1rem 1rem 0rem;
     font-size: 1.8rem;
-    visibility: hidden;
+	text-align: center;
+	line-height: 70px;
 	background-color: #99e2d0;
 	color: #fff;
+}
+
+@keyframes anim-gradually
+{
+	0%{
+	transform: translateY(5vh);
+	opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	} 
+}
+
+.gradually
+{
+	animation-name: anim-gradually;
+	animation-duration: 2000ms;
+	animation-delay: 500ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+.gradually1
+{
+	animation-name: anim-gradually;
+	animation-duration: 2000ms;
+	animation-delay: 750ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+.gradually2
+{
+	animation-name: anim-gradually;
+	animation-duration: 2000ms;
+	animation-delay: 1000ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
 }
 
 /* Footer du site*/
