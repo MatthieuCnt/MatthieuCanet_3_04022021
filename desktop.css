@@ -143,7 +143,13 @@ body
 
 .menucircle__animation
 {
-	left: 7rem;
+    line-height: 110px;
+}
+
+.price
+{
+    position: initial;
+    font-size: 1.2rem;
 }
 
 .buttonmenu

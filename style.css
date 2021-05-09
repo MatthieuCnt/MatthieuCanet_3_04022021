@@ -100,8 +100,15 @@ body
 	border: none;
 	color: white;
 	background: linear-gradient(to top, #9356DC, #FF79DA);
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 }
-	
+
+.explorer:hover
+{
+	opacity: 85%;
+	box-shadow: 0rem 0.6rem 1rem #9c9c9c;
+}
+
 .title
 {
 	display: flex;
@@ -462,6 +469,12 @@ body
 	color: #9356DC;
 }
 
+.choicelist:hover
+{
+	opacity: 80%;
+	box-shadow: 0rem 0.6rem 1rem #9c9c9c;
+}
+
 .number
 {	
 	display: flex;
@@ -586,40 +599,78 @@ body
 	padding: 1rem;
 }
 
-.love
+.lovemenu
 {
 	position: absolute;
 	font-size: 2rem;
 	bottom: 1rem;
 	right: 1rem;
-	transition: color 2s;
 }
 
-.love:hover
+.love
 {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.lovefull
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
 	background: -webkit-linear-gradient(top,#9356DC, #FF79DA);
 	background-clip: inherit;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-weight: bold;
+	transition: opacity 0.3s;
 }
+
+.lovemenu:hover .lovefull
+{
+	opacity: 1;
+}
+
+.lovemenu:hover .love
+{
+	opacity: 0;
+}
+
 .heartmenu
 {
 	position: relative;
-	font-size: 1.8rem;
 	float: right;
+	font-size: 2rem;
 	bottom: 2.5rem;
-	padding-right: 3rem;
-	transition: color 2s;
 }
 
-.heartmenu:hover
+.heart
 {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.fullheart
+{
+	position: relative;
+	right: 55%;
+	opacity: 0;
 	background: -webkit-linear-gradient(top,#9356DC, #FF79DA);
 	background-clip: inherit;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-weight: bold;
+	transition: opacity 0.3s;
+}
+
+.heartmenu:hover .heart
+{
+	opacity: 0;
+}
+
+.heartmenu:hover .fullheart
+{
+	opacity: 1;
 }
 
 .buttonmenu
@@ -632,6 +683,13 @@ body
 	border: none;
 	color: white;
 	background: linear-gradient(to top, #9356DC, #FF79DA);
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+}
+
+.buttonmenu:hover
+{
+	opacity: 85%;
+	box-shadow: 0rem 0.6rem 1rem #9c9c9c;
 }
 
 .menuarticle
@@ -643,6 +701,8 @@ body
 .dishesmenu
 {
 	display: flex;
+	position: relative;
+	overflow: hidden;
 	width: 100%;
 	border-radius: 1rem;
 	cursor: pointer;
@@ -699,7 +759,7 @@ body
 {
 	display: block;
 	position: absolute;
-	right: -5.6rem;
+	right: -20%;
     width: 20%;
     border-radius: 0rem 1rem 1rem 0rem;
     font-size: 1.8rem;

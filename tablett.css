@@ -62,14 +62,14 @@ font-size: 2rem;
     height: 16rem;
 }
 
+.menucircle__animation
+{
+line-height: 80px;
+}
+
 .choicelist
 {
     width: 100%;
-}
-
-.love
-{
-    padding: 1rem 0rem 0rem 5rem;
 }
 
 /* Footer du site*/
