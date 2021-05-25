@@ -1,171 +1,134 @@
 /* version site*/
 :root {
-    font-size: 15px;
-}  
+	font-size: 15px;
+}
 /* Initialisation du style*/
-body
-{
-	font-family: "Raleway", sans-serif;
+body {
+	font-family: 'Raleway', sans-serif;
 }
 
- 
 /* Header du site*/
-.logo
-{
-    text-align: left;
-    font-size: 2rem;
-    padding-bottom: 1rem;
+.logo {
+	text-align: left;
+	font-size: 2rem;
+	padding-bottom: 1rem;
 }
-.choice
-{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 4rem;
-    text-align: center;
-    padding: 2rem;
+.choice {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 4rem;
+	text-align: center;
+	padding: 2rem;
 }
 
-.choicelist
-{
-    line-height: 4rem;
+.intro {
+	height: 13rem;
+}
+.explorer {
+	font-weight: bold;
+	width: 20rem;
 }
 
-.search
-{
-    width: 20%;
-    margin-bottom: 1rem;
-    justify-content: left;
+.number {
+	margin: 1rem 0rem 0rem -0.8rem;
 }
 
-.location
-{
-    width: 100%;
-}
-
-.intro
-{
-    height: 13rem;
-}
-.explorer
-{
-    font-weight: bold;
-    width: 20rem;
-}
-
-.number
-{
-    margin: 1rem 0rem 0rem -0.8rem;
-}
-
-.mobile
-{
+.mobile {
 	font-size: 1.2rem;
 }
 
-.list
-{
-    font-size: 1.2rem;
+.list {
+	font-size: 1.2rem;
 }
 
-.store
-{
-    font-size: 1.2rem;
+.store {
+	font-size: 1.2rem;
 }
 
-.title1
-{
-    margin: 1rem 2rem 1rem 2rem;
+.title1 {
+	margin: 1rem 2rem 1rem 2rem;
 }
 
-.title
-{
-    margin: 0rem 2rem 0rem 0rem;
+.title {
+	margin: 0rem 2rem 0rem 0rem;
 }
 
-.menucircle
-{
-    margin-left: 1.5rem;
+.menucircle {
+	margin-left: 1.5rem;
 }
 
-.resto
-{
-    grid-template-columns: repeat(4, 1fr);
+.resto {
+	grid-template-columns: repeat(4, 1fr);
 	grid-template-areas:
-		"title title title title"
-		"block1 block2 block3 block4";
-    grid-template-rows: none;
-    grid-row-gap: 1rem;
-    padding: 2rem;
-    padding-top: 1rem;
+		'title title title title'
+		'block1 block2 block3 block4';
+	grid-template-rows: none;
+	grid-row-gap: 1rem;
+	padding: 2rem;
+	padding-top: 1rem;
 }
 
-.gridmenu
-{
-   grid-template-areas:
-    "menu1 menu2 menu3";
-    grid-column-gap: 1rem;
-    grid-template-rows: none;
-    grid-template-columns: 32.5% 32.5% 32.5%;
+.gridmenu {
+	grid-template-areas: 'menu1 menu2 menu3';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
 }
 
-.gridmenu1
-{
-   grid-template-areas:
-    "menu4 menu5 menu6";
-    grid-column-gap: 1rem;
-    grid-template-rows: none;
-    grid-template-columns: 32.5% 32.5% 32.5%;
+.gridmenu1 {
+	grid-template-areas: 'menu4 menu5 menu6';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
 }
 
-.gridmenu2
-{
-   grid-template-areas:
-    "menu7 menu8 menu9"
-    ". buttonmenu .";
-    grid-column-gap: 1rem;
-    grid-template-rows: none;
-    grid-template-columns: 32.5% 32.5% 32.5%;
+.gridmenu2 {
+	grid-template-areas:
+		'menu7 menu8 menu9'
+		'. buttonmenu .';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
 }
 
-.new
-{
-    margin-left: 21rem;
+.new {
+	margin-left: 21rem;
 }
 
-.blockarticle
-{
-    height: 20rem;
+.choicelist::before {
+	left: -0.9rem;
 }
 
-.picture
-{
-    height: 14rem;
+.blockarticle {
+	height: 20rem;
 }
 
-.menucircle__animation
-{
-    line-height: 110px;
+.picture {
+	height: 14rem;
 }
 
-.price
-{
-    position: initial;
-    font-size: 1.2rem;
+.menucircle__animation {
+	line-height: 110px;
 }
 
-.buttonmenu
-{
-    grid-area: buttonmenu;  
+.price {
+	position: initial;
+	font-size: 1.2rem;
 }
 
-.logofooter
-{
-    text-align: center;
-    font-size: 1.8rem;
+.lovemenu {
+	bottom: 0.2rem;
+	right: 0.5rem;
 }
 
-.footermenu
-{
-    text-align: center;
+.buttonmenu {
+	grid-area: buttonmenu;
 }
 
+.logofooter {
+	text-align: center;
+	font-size: 1.8rem;
+}
 
+.footermenu {
+	text-align: center;
+}
