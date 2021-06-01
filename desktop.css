@@ -107,12 +107,13 @@ body {
 }
 
 .menucircle__animation {
-	line-height: 110px;
+	line-height: 125px;
 }
 
 .price {
 	position: initial;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+	padding-left: 0rem;
 }
 
 .lovemenu {

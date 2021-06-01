@@ -424,6 +424,7 @@ body {
 
 .choicelist::before {
 	position: absolute;
+	top: calc(4rem / 2 - calc(25px / 2));
 	display: flex;
 	counter-increment: compteListe;
 	content: counter(compteListe) ' ';
@@ -431,7 +432,7 @@ body {
 	justify-content: center;
 	height: 25px;
 	width: 25px;
-	left: -1.2rem;
+	left: calc(-25px / 2);
 	border-radius: 50%;
 	background-color: #9356dc;
 	color: white;
@@ -443,8 +444,9 @@ body {
 	background-color: #f6f6f6;
 	font-weight: bold;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
-	padding: 1.5rem 0rem 0rem 5rem;
+	height: 4rem;
 	font-size: 1.1rem;
+	line-height: 4rem;
 }
 
 .choicelistcolor {
@@ -471,18 +473,18 @@ body {
 }
 
 .mobile {
-	padding-right: 1.5rem;
+	padding: 0rem 2rem 0rem 3rem;
 	font-size: 1.3rem;
 	color: #7e7e7e;
 }
 
 .list {
-	padding-right: 1.5rem;
+	padding: 0rem 2rem 0rem 3rem;
 	color: #7e7e7e;
 }
 
 .store {
-	padding-right: 1.5rem;
+	padding: 0rem 2rem 0rem 3rem;
 	color: #7e7e7e;
 }
 
@@ -666,9 +668,6 @@ body {
 	position: relative;
 	width: 100%;
 	padding: 1rem;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
 }
 
 .textmenu:hover {
@@ -679,6 +678,7 @@ body {
 .textmenu__title {
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	font-size: 1.5rem;
 	overflow: hidden;
 }
 
@@ -686,14 +686,20 @@ body {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	font-size: 1.3rem;
 }
 
 .price {
 	position: absolute;
+	display: block;
 	align-items: flex-end;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	bottom: 1rem;
 	right: 1rem;
+	padding-left: 2rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .menucircle__animation {

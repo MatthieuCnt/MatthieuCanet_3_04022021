@@ -1,97 +1,85 @@
 /* version tablette*/
 
-    :root {
-        font-size: 13px;
-    }
-
+:root {
+	font-size: 13px;
+}
 
 /* Header du site*/
 
-.logo
-{
-padding: 2rem;
-font-size: 2rem;
+.logo {
+	padding: 2rem;
+	font-size: 2rem;
 }
 
-.explorer
-{
-    width: 40%;
+.explorer {
+	width: 40%;
 }
 
-.choice
-{
-    padding: 2rem 10rem 4rem 10rem;
+.choice {
+	padding: 2rem 10rem 4rem 10rem;
 }
 
-.choicelist
-{
-    text-align: center;
-    padding-left: 0;
+.choicelist {
+	text-align: center;
+	padding-left: 0;
 }
 
-.number
-{
-    margin: 1.5rem 0rem 0rem -1rem;
+.number {
+	margin: 1.5rem 0rem 0rem -1rem;
 }
 
-.list
-{
-    padding-right: 2.5rem;
+.mobile {
+	padding-left: 1rem;
 }
 
-.store
-{
-        padding-right: 2rem;
+.list {
+	padding-left: 0rem;
 }
 
-.resto
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.store {
+	padding-left: 0.5rem;
+}
+
+.resto {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-areas:
-		"title title "
-		"block1 block2"
-		"block3 block4";
-    grid-template-rows: none;
-    padding: 2rem;
+		'title title '
+		'block1 block2'
+		'block3 block4';
+	grid-template-rows: none;
+	padding: 2rem;
 }
 
-.blockarticle
-{
-    margin: 0rem;
-    height: 16rem;
+.blockarticle {
+	margin: 0rem;
+	height: 16rem;
 }
 
-.menucircle__animation
-{
-line-height: 80px;
+.menucircle__animation {
+	line-height: 80px;
 }
 
-.choicelist
-{
-    width: 100%;
+.choicelist {
+	position: relative;
 }
 
 /* Footer du site*/
 
-.logofooter
-{
-    text-align: center;
-    font-size: 1.8rem;
+.logofooter {
+	text-align: center;
+	font-size: 1.8rem;
 }
 
-.footertitle
-{
-    text-align: center;
-    font-size: 1.8rem;
+.footertitle {
+	text-align: center;
+	font-size: 1.8rem;
 }
 
-.footermenu
-{
-    text-align: center;
+.footermenu {
+	text-align: center;
 }
 
-.footerul
-{
-    text-align: center;
+.footerul {
+	text-align: center;
 }
