@@ -7,6 +7,7 @@
 /* Initialisation du style*/
 body {
 	font-family: 'Roboto', helvetica, sans-serif;
+	z-index: 999;
 }
 
 /* Header du site*/
@@ -16,12 +17,13 @@ body {
 	align-items: center;
 	justify-content: center;
 	position: fixed;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	opacity: 0;
 	background: #9c9c9c70;
 	animation-fill-mode: both;
 	animation: loader 3s 1;
+	z-index: 9999;
 }
 
 .square {
@@ -687,6 +689,7 @@ body {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	font-size: 1.3rem;
+	width: 90%;
 }
 
 .price {
