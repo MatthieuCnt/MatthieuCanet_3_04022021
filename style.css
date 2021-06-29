@@ -4,6 +4,10 @@
 	font-size: 10px;
 }
 
+* {
+	z-index: 999;
+}
+
 /* Initialisation du style*/
 body {
 	font-family: 'Roboto', helvetica, sans-serif;
@@ -17,12 +21,12 @@ body {
 	align-items: center;
 	justify-content: center;
 	position: fixed;
+	top: 0;
 	width: 100vw;
 	height: 100vh;
 	opacity: 0;
 	background: #9c9c9c70;
-	animation-fill-mode: both;
-	animation: loader 3s 1;
+	animation: loader 4s ease-out forwards;
 	z-index: 0;
 }
 
@@ -30,7 +34,8 @@ body {
 	background: linear-gradient(to top, #9356dc, #ff79da);
 	width: 5rem;
 	height: 5rem;
-	animation: square 3s 1 linear;
+	animation: square 4s 1 linear;
+	z-index: 0;
 }
 
 @keyframes square {
@@ -39,6 +44,7 @@ body {
 	}
 	to {
 		transform: rotate(360deg);
+		z-index: 1;
 	}
 }
 
@@ -48,10 +54,13 @@ body {
 		z-index: 9999;
 	}
 	99% {
-		opacity: 1;
+		squale: 0;
+		width: 100vw;
+		height: 100vh;
 	}
 	100% {
 		opacity: 0;
+		width: 0;
 	}
 }
 
@@ -631,6 +640,7 @@ body {
 	margin: 2rem auto;
 	height: 3rem;
 	width: 10rem;
+	font-size: 1.2rem;
 	border-radius: 1.5rem;
 	border: none;
 	color: white;
