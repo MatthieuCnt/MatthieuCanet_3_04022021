@@ -23,7 +23,7 @@ body {
 	background: #9c9c9c70;
 	animation-fill-mode: both;
 	animation: loader 3s 1;
-	z-index: 9999;
+	z-index: 0;
 }
 
 .square {
@@ -45,6 +45,7 @@ body {
 @keyframes loader {
 	0% {
 		opacity: 1;
+		z-index: 9999;
 	}
 	99% {
 		opacity: 1;

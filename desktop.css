@@ -90,6 +90,77 @@ body {
 	grid-template-columns: 32.5% 32.5% 32.5%;
 }
 
+.gridmenu3 {
+	grid-template-areas:
+		'menu10 menu11 menu12'
+		'menu13 . .';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu4 {
+	grid-template-areas: 'menu14 menu15 menu16';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu5 {
+	grid-template-areas:
+		'menu17 menu18 menu19'
+		'. buttonmenu .';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu6 {
+	grid-template-areas: 'menu20 menu21 menu22';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu7 {
+	grid-template-areas: 'menu23 menu24 menu25';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu8 {
+	grid-template-areas:
+		'menu26 menu27 menu28'
+		'. buttonmenu .';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu9 {
+	grid-template-areas: 'menu29 menu30 menu31';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu10 {
+	grid-template-areas: 'menu32 menu33 menu34';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
+.gridmenu11 {
+	grid-template-areas:
+		'menu35 menu36 menu37'
+		'. buttonmenu .';
+	grid-column-gap: 1rem;
+	grid-template-rows: none;
+	grid-template-columns: 32.5% 32.5% 32.5%;
+}
+
 .new {
 	margin-left: 21rem;
 }
