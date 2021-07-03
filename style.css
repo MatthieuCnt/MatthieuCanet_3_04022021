@@ -672,7 +672,7 @@ body {
 }
 
 .dishesmenu:hover > .menucircle__animation .menucircle__icon {
-	transform: rotate(-360deg);
+	transform: rotate(360deg);
 	transition-duration: 1s;
 }
 
